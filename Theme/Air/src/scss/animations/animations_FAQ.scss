@@ -1,0 +1,102 @@
+/////FAQ/////
+/////
+//CURRENT_UP
+@keyframes UpCurTopFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(250px, -350px);
+    }
+}
+@keyframes UpCurBotBigFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, -600px);
+    }
+}
+@keyframes UpCurBotSmallFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(650px, -750px);
+    }
+}
+//NEW_UP
+@keyframes UpNewTopFigureFAQ{
+    0%{
+        transform: translate(150px, 600px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewBotBigFigureFAQ{
+    0%{
+        transform: translate(150px, 450px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewBotSmallFigureFAQ{
+    0%{
+        transform: translate(650px, 300px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN
+@keyframes DownCurTopFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, 500px);
+    }
+}
+@keyframes DownCurBotBigFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, 800px);
+    }
+}
+@keyframes DownCurBotSmallFigureFAQ{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(650px, 350px);
+    }
+}
+//NEW_DOWN
+@keyframes DownNewTopFigureFAQ{
+    0%{
+        transform: translate(200px, -300px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewBotBigFigureFAQ{
+    0%{
+        transform: translate(150px, -750px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewBotSmallFigureFAQ{
+    0%{
+        transform: translate(650px, -350px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}

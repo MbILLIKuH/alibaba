@@ -1,0 +1,3070 @@
+/////BASE////
+@media screen and (max-width: 1368px){
+    .in{
+        &.-right{
+            width: 97.5%;
+            margin-left: auto;
+        }
+    }
+}
+@media screen and (max-width: 1300px){
+    .-title{
+        .ipWidget{
+            h2{
+                font-size: 36px;
+            }
+        }
+    }
+}
+/////STYLE/////
+//WHATSAPP
+@media screen and (max-width: 950px){
+    #WAButton{
+        &.floating-wpp{
+            bottom: 20px;
+            right: 10px;
+        }
+        .floating-wpp{
+            &-button{
+                width: 50px;
+                height: 50px;
+            }
+            &-popup{
+                bottom: 50px;
+            }
+        }
+    }
+}
+/////PRELOADER/////
+@media screen and (max-width: 650px){
+    .preloader{
+        &__logo{
+            max-width: 250px;
+        }
+    }
+}
+//POPUP
+//POPUP 1920px
+@media screen and (max-height: 600px) and (min-width: 651px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                padding: 30px 50px;
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 20px;
+                    }
+                    &__bottom{
+                        margin-top: 20px;
+                    }
+                    &__close{
+                        top: 10px;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 500px) and (min-width: 651px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 15px;
+                    }
+                    &__title{
+                        h3{
+                            font-size: 28px;
+                        }
+                    }
+                    &__desc{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    &__block{
+                        input{
+                            margin-bottom: 15px;
+                        }
+                    }
+                    &__bottom{
+                        margin-top: 15px;
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//POPUP 650px
+@media screen and (max-width: 650px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                padding: 30px;
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 20px;
+                    }
+                    &__title{
+                        padding: 0 10px;
+                        h3{
+                            font-size: 28px;
+                        }
+                    }
+                    &__bottom{
+                        margin-top: 20px;
+                        p{
+                            font-size: 22px;
+                        }
+                    }
+                    &__close{
+                        top: 10px;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 401px) and (max-width: 650px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 15px;
+                    }
+                    &__desc{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    &__block{
+                        input{
+                            margin-bottom: 15px;
+                        }
+                    }
+                    &__bottom{
+                        margin-top: 15px;
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 475px) and (min-width: 401px) and (max-width: 650px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                padding: 20px;
+                .uf-request{
+                    &__title{
+                        padding: 0 15px;
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    &__close{
+                        top: 5px;
+                        right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+//POPUP 400px
+@media screen and (max-width: 400px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                padding: 20px 15px;
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 15px;
+                    }
+                    &__title{
+                        padding: 0 20px;
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    &__desc{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    &__block{
+                        input{
+                            margin-bottom: 15px;
+                        }
+                    }
+                    &__bottom{
+                        margin-top: 15px;
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    &__close{
+                        top: 5px;
+                        right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 475px) and (max-width: 400px){
+    .uf-screenFilter{
+        .uf-container{
+            #uf-request{
+                .uf-request{
+                    &__title,&__desc{
+                        margin-bottom: 10px;
+                    }
+                    &__title{
+                        h3{
+                            font-size: 22px;
+                        }
+                    }
+                    &__desc{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    &__block{
+                        input{
+                            margin-bottom: 10px;
+                        }
+                    }
+                    &__bottom{
+                        margin-top: 10px;
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//HEADER
+//Header 1920px
+@media screen and (max-height: 700px){
+    .ipHasAdminPanel{
+        .header{
+            padding-top: 10px;
+        }
+    }
+}
+@media screen and (max-height: 600px){
+    .ipHasAdminNavbar{
+        .header{
+            padding-top: 10px;
+        }
+    }
+}
+@media screen and (max-height: 550px){
+    .header{
+        padding-top: 10px;
+    }
+}
+//Header 1000px
+@media screen and (max-width: 1000px){
+    .header{
+        &__logo{
+            width: calc(100% - 280px);
+        }
+        &__button{
+            &--menu{
+                margin-left: 50px;
+            }
+        }
+    }
+}
+//Header 650px
+@media screen and (max-width: 650px){
+    .header{
+        .in{
+            position: relative;
+            justify-content: center;
+        }
+        &__logo{
+            z-index: 2;
+            position: relative;
+            width: auto;
+        }
+        &__button{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            &--consultation{
+                z-index: 1;
+                opacity: 0;
+                left: 0;
+                width: 100%;
+            }
+            &--menu{
+                z-index: 3;
+                right: 0;
+                margin: 0;
+            }
+        }
+        &.-menuActive{
+            .header{
+                &__logo{
+                    z-index: 1;
+                    opacity: 0;
+                }
+                &__button{
+                    &--consultation{
+                        z-index: 2;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+//Header 400px
+@media screen and (max-width: 400px){
+    .logo{
+        &__img{
+            max-width: 40px;
+        }
+        &__title{
+            .ipWidget{
+                p{
+                    font-size: 7px;
+                    &:first-child{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+//Header 300px
+@media screen and (max-width: 300px){
+    .header{
+        .in{
+            justify-content: space-between;
+        }
+        &__button{
+            &--consultation{
+                text-align: left;
+            }
+            &--menu{
+                position: relative;
+                top: auto;
+                right: auto;
+                transform: none;
+            }
+        }
+    }
+}
+//MENU
+//Menu 1920px
+@media screen and (max-height: 700px){
+    .ipHasAdminPanel{
+        .main-menu{
+            padding: 84px 0 50px 0;
+        }
+    }
+}
+@media screen and (max-height: 600px){
+    .ipHasAdminNavbar{
+        .main-menu{
+            padding: 84px 0 50px 0;
+        }
+    }
+}
+@media screen and (max-height: 550px){
+    .main-menu{
+        padding: 84px 0 50px 0;
+    }
+}
+//Menu 1050px
+@media screen and (max-width: 1050px){
+    .main-menu{
+        width: 480px;
+        ul{
+            li{
+                a{
+                    padding: 10px 70px;
+                }
+            }
+            &.level1{
+                & > li{
+                    & > a{
+                        padding: 20px 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+//Menu 650px
+@media screen and (max-width: 650px){
+    .main-menu{
+        width: 100%;
+        ul{
+            li{
+                text-align: center;
+                &.parent{
+                    & > a{
+                        padding: 10px 35px;
+                        .link-text{
+                            padding: 0 35px;
+                        }
+                    }
+                }
+            }
+            &.level1{
+                & > li{
+                    & > a{
+                        padding: 15px 70px;
+                        font-size: 30px;
+                    }
+                    &.parent{
+                        & > a{
+                            padding: 15px 20px;
+                            .link-text{
+                                padding: 0 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Menu 450px
+@media screen and (max-width: 450px){
+    .main-menu{
+        ul{
+            li{
+                text-align: center;
+                a{
+                    padding: 7.5px 40px;
+                }
+                &.parent{
+                    & > a{
+                        padding: 7.5px 10px;
+                        .link-text{
+                            padding: 0 30px;
+                        }
+                    }
+                }
+            }
+            &.level1{
+                & > li{
+                    & > a{
+                        padding: 10px 40px;
+                        font-size: 24px;
+                    }
+                    &.parent{
+                        & > a{
+                            padding: 10px;
+                            .link-text{
+                                padding: 0 30px;
+                                .child-list-button{
+                                    top: calc(50% - 12.5px);
+                                    width: 25px;
+                                    height: 25px;
+                                    &::after{
+                                        width: 25px;
+                                        height: 25px;
+                                        line-height: 25px;
+                                        font-size: 26px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//FOOTER
+//Footer 1920px
+@media screen and (max-height: 700px){
+    .ipHasAdminPanel{
+        .footer{
+            padding-bottom: 10px;
+        }
+    }
+}
+@media screen and (max-height: 600px){
+    .ipHasAdminNavbar{
+        .footer{
+            padding-bottom: 10px;
+        }
+    }
+}
+@media screen and (max-height: 550px){
+    .footer{
+        padding-bottom: 10px;
+    }
+}
+//Footer 650px
+@media screen and (max-width: 650px){
+    .socials{
+        justify-content: center;
+    }
+}
+/////HOME/////
+//BANNER
+//Banner 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 750px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__next{
+                    bottom: 50px;
+                    &--figure{
+                        top: calc(100% + 10px);
+                        &::after{
+                            top: 5px;
+                        }
+                        &.-common{
+                            &::before{
+                                animation: NextButtonAdaptive 5s infinite ease-in-out;
+                            }
+                        }
+                        &.-hover{
+                            &::before{
+                                animation: NextButtonHoverAdaptive 0.5s ease-in-out;
+                                top: 8px;
+                            }
+                        }
+                        &.-back{
+                            &::before{
+                                animation: NextButtonBackAdaptive 0.5s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__next{
+                    bottom: 10px;
+                    &--text{
+                        display: none;
+                    }
+                    &--figure{
+                        position: relative;
+                        top: auto;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 650px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__next{
+                bottom: 50px;
+                &--figure{
+                    top: calc(100% + 10px);
+                    &::after{
+                        top: 5px;
+                    }
+                    &.-common{
+                        &::before{
+                            animation: NextButtonAdaptive 5s infinite ease-in-out;
+                        }
+                    }
+                    &.-hover{
+                        &::before{
+                            animation: NextButtonHoverAdaptive 0.5s ease-in-out;
+                            top: 8px;
+                        }
+                    }
+                    &.-back{
+                        &::before{
+                            animation: NextButtonBackAdaptive 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__next{
+                bottom: 10px;
+                &--text{
+                    display: none;
+                }
+                &--figure{
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 600px){
+    .banner{
+        &__next{
+            bottom: 50px;
+            &--figure{
+                top: calc(100% + 10px);
+                &::after{
+                    top: 5px;
+                }
+                &.-common{
+                    &::before{
+                        animation: NextButtonAdaptive 5s infinite ease-in-out;
+                    }
+                }
+                &.-hover{
+                    &::before{
+                        animation: NextButtonHoverAdaptive 0.5s ease-in-out;
+                        top: 8px;
+                    }
+                }
+                &.-back{
+                    &::before{
+                        animation: NextButtonBackAdaptive 0.5s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 500px){
+    .banner{
+        &__next{
+            bottom: 10px;
+            &--text{
+                display: none;
+            }
+            &--figure{
+                position: relative;
+                top: auto;
+                left: auto;
+            }
+        }
+    }
+}
+//Banner 1000px
+@media screen and (max-width: 1000px){
+    .banner{
+        &__description{
+            max-width: 350px;
+        }
+        &__buttons{
+            max-width: 265px;
+        }
+        &__button{
+            width: 100%;
+        }
+    }
+}
+//Banner 768px
+@media screen and (max-width: 768px){
+    .banner{
+        .in{
+            padding: 30px 50px;
+        }
+        &__info{
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__description{
+            max-width: 100%;
+        }
+        &__buttons{
+            max-width: calc(100% + 20px);
+        }
+        &__button{
+            width: calc(50% - 20px);
+        }
+        &__next{
+            &--text{
+                display: none;
+            }
+        }
+    }
+}
+//Banner 650px
+@media screen and (max-width: 650px){
+    .banner{
+        .in{
+            padding: 30px 0;
+        }
+        &__title{
+            .ipWidget{
+                h1{
+                    font-size: 36px;
+                }
+            }
+        }
+        &__buttons{
+            max-width: 245px;
+            margin: -10px auto;
+        }
+        &__button{
+            width: 100%;
+            margin: 10px 0;
+        }
+        &__next{
+            display: none;
+        }
+    }
+}
+//Banner 400px
+@media screen and (max-width: 400px){
+    .banner{
+        &__title,&__description{
+            margin-bottom: 20px;
+        }
+        &__title{
+            .ipWidget{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+        &__buttons{
+            margin: -7.5px auto;
+        }
+        &__button{
+            margin: 7.5px 0;
+        }
+    }
+}
+//SERVICES
+//Services 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 875px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                .in{
+                    padding-top: 50px;
+                }
+                &__form{
+                    .in{
+                        padding-top: 30px;
+                    }
+                    .services__back{
+                        top: 25px;
+                    }
+                }
+                &__form-wrap{
+                    .uf-siteForm{
+                        background-position: 50% 30px, 0 0;
+                        padding-top: 160px;
+                        padding-bottom: 30px;
+                        fieldset{
+                            height: 159px;
+                        }
+                        input{
+                            padding: 10px 30px 10px 15px;
+                            &:nth-child(2){
+                                margin-bottom: 15px;
+                            }
+                            &:nth-child(3){
+                                margin-bottom: 30px;
+                            }
+                        }
+                        button{
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+                &__title{
+                    margin-bottom: 15px;
+                    .ipWidget{
+                        p{
+                            max-height: 37px;
+                            font-size: 28px;
+                        }
+                    }
+                }
+                &__wrap{
+                    &--status{
+                        padding-top: 65px;
+                    }
+                }
+                &__back{
+                    top: 60px;
+                }
+            }
+            .plugin-service{
+                &__slider{
+                    .slick{
+                        &-arrow{
+                            top: 117.5px;
+                        }
+                    }
+                }
+                &__info{
+                    padding: 15px 15px 5px 15px;
+                }
+                &__list{
+                    padding: 10px 15px 20px 15px;
+                }
+                &__image{
+                    img{
+                        max-width: 60px;
+                    }
+                }
+                &__title{
+                    height: 42px;
+                    h3{
+                        font-size: 16px;
+                    }
+                }
+                &__list-wrap{
+                    height: 171px;
+                }
+                &__list-item{
+                    margin-bottom: 7.5px;
+                    &:last-child{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 875px) and (min-width: 1301px){
+     .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    height: 353px;
+                }
+                .plugin-service{
+                    &__slider{
+                        max-height: 353px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__form{
+                    .services__back{
+                        top: 47.5px;
+                    }
+                }
+                &__form-wrap{
+                    .uf-siteForm{
+                        background-position: 50% 10px, 0 0;
+                        padding-top: 120px;
+                        padding-bottom: 20px;
+                        fieldset{
+                            height: 144px;
+                        }
+                        input{
+                            &:nth-child(3){
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+                &__wrap{
+                    &--status{
+                        padding-top: 20px;
+                    }
+                }
+                &__back{
+                    left: 10px;
+                    padding-left: 25px;
+                }
+            }
+            .plugin-service{
+                &__slider{
+                    .slick{
+                        &-arrow{
+                            top: 68.5px;
+                        }
+                    }
+                }
+                &__item{
+                    margin-top: 35px;
+                    &.-active{
+                        margin-top: 10px;
+                    }
+                }
+                &__list{
+                    padding-bottom: 10px;
+                }
+                &__image{
+                    img{
+                        max-width: 40px;
+                    }
+                }
+                &__title{
+                    height: 42px;
+                    h3{
+                        height: 40px;
+                        font-size: 15px;
+                    }
+                }
+                &__list-wrap{
+                    height: 100px;
+                }
+                &__list-button{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (min-width: 1301px){
+     .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    height: 252px;
+                }
+                .plugin-service{
+                    &__slider{
+                        max-height: 252px;
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 775px){
+    .ipHasAdminNavbar{
+        .services{
+            .in{
+                padding-top: 50px;
+            }
+            &__form{
+                .in{
+                    padding-top: 30px;
+                }
+                .services__back{
+                    top: 25px;
+                }
+            }
+            &__form-wrap{
+                .uf-siteForm{
+                    background-position: 50% 30px, 0 0;
+                    padding-top: 160px;
+                    padding-bottom: 30px;
+                    fieldset{
+                        height: 159px;
+                    }
+                    input{
+                        padding: 10px 30px 10px 15px;
+                        &:nth-child(2){
+                            margin-bottom: 15px;
+                        }
+                        &:nth-child(3){
+                            margin-bottom: 30px;
+                        }
+                    }
+                    button{
+                        padding: 10px 15px;
+                    }
+                }
+            }
+            &__title{
+                margin-bottom: 15px;
+                .ipWidget{
+                    p{
+                        max-height: 37px;
+                        font-size: 28px;
+                    }
+                }
+            }
+            &__wrap{
+                &--status{
+                    padding-top: 65px;
+                }
+            }
+            &__back{
+                top: 60px;
+            }
+        }
+        .plugin-service{
+            &__slider{
+                .slick{
+                    &-arrow{
+                        top: 117.5px;
+                    }
+                }
+            }
+            &__info{
+                padding: 15px 15px 5px 15px;
+            }
+            &__list{
+                padding: 10px 15px 20px 15px;
+            }
+            &__image{
+                img{
+                    max-width: 60px;
+                }
+            }
+            &__title{
+                height: 42px;
+                h3{
+                    font-size: 16px;
+                }
+            }
+            &__list-wrap{
+                height: 171px;
+            }
+            &__list-item{
+                margin-bottom: 7.5px;
+                &:last-child{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (min-width: 1301px){
+     .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                height: 353px;
+            }
+            .plugin-service{
+                &__slider{
+                    max-height: 353px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px){
+    .ipHasAdminNavbar{
+        .services{
+            &__form{
+                .services__back{
+                    top: 47.5px;
+                }
+            }
+            &__form-wrap{
+                .uf-siteForm{
+                    background-position: 50% 10px, 0 0;
+                    padding-top: 120px;
+                    padding-bottom: 20px;
+                    fieldset{
+                        height: 144px;
+                    }
+                    input{
+                        &:nth-child(3){
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+            &__wrap{
+                &--status{
+                    padding-top: 20px;
+                }
+            }
+            &__back{
+                left: 10px;
+                padding-left: 25px;
+            }
+        }
+        .plugin-service{
+            &__slider{
+                .slick{
+                    &-arrow{
+                        top: 68.5px;
+                    }
+                }
+            }
+            &__item{
+                margin-top: 35px;
+                &.-active{
+                    margin-top: 10px;
+                }
+            }
+            &__list{
+                padding-bottom: 10px;
+            }
+            &__image{
+                img{
+                    max-width: 40px;
+                }
+            }
+            &__title{
+                height: 42px;
+                h3{
+                    height: 40px;
+                    font-size: 15px;
+                }
+            }
+            &__list-wrap{
+                height: 100px;
+            }
+            &__list-button{
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px) and (min-width: 1301px){
+     .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                height: 252px;
+            }
+            .plugin-service{
+                &__slider{
+                    max-height: 252px;
+                }
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 725px){
+    .services{
+        .in{
+            padding-top: 50px;
+        }
+        &__form{
+            .in{
+                padding-top: 30px;
+            }
+            .services__back{
+                top: 25px;
+            }
+        }
+        &__form-wrap{
+            .uf-siteForm{
+                background-position: 50% 30px, 0 0;
+                padding-top: 160px;
+                padding-bottom: 30px;
+                fieldset{
+                    height: 159px;
+                }
+                input{
+                    padding: 10px 30px 10px 15px;
+                    &:nth-child(2){
+                        margin-bottom: 15px;
+                    }
+                    &:nth-child(3){
+                        margin-bottom: 30px;
+                    }
+                }
+                button{
+                    padding: 10px 15px;
+                }
+            }
+        }
+        &__title{
+            margin-bottom: 15px;
+            .ipWidget{
+                p{
+                    max-height: 37px;
+                    font-size: 28px;
+                }
+            }
+        }
+        &__wrap{
+            &--status{
+                padding-top: 65px;
+            }
+        }
+        &__back{
+            top: 60px;
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-arrow{
+                    top: 117.5px;
+                }
+            }
+        }
+        &__info{
+            padding: 15px 15px 5px 15px;
+        }
+        &__list{
+            padding: 10px 15px 20px 15px;
+        }
+        &__image{
+            img{
+                max-width: 60px;
+            }
+        }
+        &__title{
+            height: 42px;
+            h3{
+                font-size: 16px;
+            }
+        }
+        &__list-wrap{
+            height: 171px;
+        }
+        &__list-item{
+            margin-bottom: 7.5px;
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+}
+@media screen and (max-height: 725px) and (min-width: 1301px){
+    .services{
+        &__wrap{
+            height: 353px;
+        }
+        .plugin-service{
+            &__slider{
+                max-height: 353px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 625px){
+    .services{
+        &__form{
+            .services__back{
+                top: 47.5px;
+            }
+        }
+        &__form-wrap{
+            .uf-siteForm{
+                background-position: 50% 10px, 0 0;
+                padding-top: 120px;
+                padding-bottom: 20px;
+                fieldset{
+                    height: 144px;
+                }
+                input{
+                    &:nth-child(3){
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        &__wrap{
+            &--status{
+                padding-top: 20px;
+            }
+        }
+        &__back{
+            left: 10px;
+            padding-left: 25px;
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-arrow{
+                    top: 68.5px;
+                }
+            }
+        }
+        &__item{
+            margin-top: 35px;
+            &.-active{
+                margin-top: 10px;
+            }
+        }
+        &__list{
+            padding-bottom: 10px;
+        }
+        &__image{
+            img{
+                max-width: 40px;
+            }
+        }
+        &__title{
+            height: 42px;
+            h3{
+                height: 40px;
+                font-size: 15px;
+            }
+        }
+        &__list-wrap{
+            height: 100px;
+        }
+        &__list-button{
+            font-size: 13px;
+        }
+    }
+}
+@media screen and (max-height: 625px) and (min-width: 1301px){
+    .services{
+        &__wrap{
+            height: 252px;
+        }
+        .plugin-service{
+            &__slider{
+                max-height: 252px;
+            }
+        }
+    }
+}
+//Services 1368px
+@media screen and (max-width: 1368px){
+     .services{
+        &__status{
+            .in{
+                width: 95%;
+                margin-right: 2.5%;
+            }
+        }
+        &__title{
+            &--status{
+                width: calc(100% + 100px);
+            }
+        }
+    }
+}
+//Services 1300px
+@media screen and (max-width: 1300px){
+    .services{
+        &__form{
+            .in{
+                width: 95%;
+                margin-right: 2.5%;
+            }
+        }
+        &__form-title{
+            width: calc(100% - 400px);
+        }
+        &__form-wrap{
+            width: 400px;
+        }
+        &__form-wrap{
+            .uf-siteForm{
+                padding-left: 30px;
+                padding-right: 30px;
+                input{
+                    max-width: 360px;
+                }
+            }
+        }
+        &__wrap{
+            height: 4;
+            &--problem,&--solve{
+                padding-left: 100px;
+                .plugin-service{
+                    left: 100px;
+                    width: calc(100% - 100px);
+                }
+            }
+        }
+    }
+    .plugin-service{
+        &__slider{
+            max-height: 432px;
+            .slick{
+                &-slider{
+                    margin: 0;
+                }
+                &-dots{
+                    display: flex!important;
+                }
+            }
+        }
+    }
+}
+//AdminPanel 1300px
+@media screen and (max-height: 875px) and (max-width: 1300px){
+     .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    height: 368px;
+                }
+                .plugin-service{
+                    &__slider{
+                        max-height: 368px;
+                        .slick{
+                            &-dots{
+                                top: 366px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (max-width: 1300px){
+     .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    height: 267px;
+                }
+                .plugin-service{
+                    &__slider{
+                        max-height: 267px;
+                        .slick{
+                            &-dots{
+                                top: 265px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1300px
+@media screen and (max-height: 775px) and (max-width: 1300px){
+     .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                height: 368px;
+            }
+            .plugin-service{
+                &__slider{
+                    max-height: 368px;
+                    .slick{
+                        &-dots{
+                            top: 366px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px) and (max-width: 1300px){
+     .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                height: 267px;
+            }
+            .plugin-service{
+                &__slider{
+                    max-height: 267px;
+                    .slick{
+                        &-dots{
+                            top: 265px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//User 1300px
+@media screen and (max-height: 725px) and (max-width: 1300px){
+    .services{
+        &__wrap{
+            height: 368px;
+        }
+        .plugin-service{
+            &__slider{
+                max-height: 368px;
+                .slick{
+                    &-dots{
+                        top: 366px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 625px) and (max-width: 1300px){
+    .services{
+        &__wrap{
+            height: 267px;
+        }
+        .plugin-service{
+            &__slider{
+                max-height: 267px;
+                .slick{
+                    &-dots{
+                        top: 265px;
+                    }
+                }
+            }
+        }
+    }
+}
+//Services 1150px
+@media screen and (max-width: 1150px){
+    .services{
+        &__form{
+            .in{
+                padding-left: 50px;
+            }
+        }
+        &__form-title{
+            width: calc(100% - 350px);
+            .ipWidget{
+                p{
+                    font-size: 20px;
+                    &:first-child{
+                        margin-bottom: 10px;
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+        &__form-wrap{
+            width: 350px;
+        }
+    }
+}
+//Services 1000px
+@media screen and (max-width: 1000px){
+    .services{
+        &__form-title{
+            .ipWidget{
+                p{
+                    font-size: 16px;
+                    &:first-child{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
+//Services 900px
+@media screen and (max-width: 900px){
+    .services{
+        &__status{
+            .in{
+                padding-left: 0;
+            }
+        }
+        &__title{
+            &--status{
+                width: 100%;
+                margin-left: auto;
+            }
+            .ipWidget{
+                p{
+                    max-height: 37px;
+                    font-size: 28px;
+                }
+            }
+        }
+        &__wrap{
+            margin: 0 auto;
+            &--status{
+                align-content: flex-start;
+                max-width: 500px;
+                padding-top: 22.5px;
+            }
+            &--problem,&--solve{
+                padding-left: 30px;
+                .plugin-service{
+                    left: 30px;
+                    width: calc(100% - 30px);
+                }
+            }
+        }
+        &__button{
+            max-width: 390px;
+            width: 100%;
+            margin: 10px auto;
+        }
+        &__back{
+            top: 70px;
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-list{
+                    padding-right: 5.5%;
+                }
+                &-dots{
+                    width: calc(100% - 2.5% - 50px);
+                }
+            }
+        }
+        &__item{
+            margin-top: 75px;
+        }
+    }
+}
+//AdminPanel 900px
+@media screen and (max-height: 875px) and (max-width: 900px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    &--status{
+                        padding-top: 27.5px;
+                    }
+                }
+                &__button{
+                    padding: 35px 5px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (max-width: 900px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__wrap{
+                    &--status{
+                        padding: 0;
+                    }
+                }
+                &__button{
+                    padding: 25px 5px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 900px
+@media screen and (max-height: 775px) and (max-width: 900px){
+    .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                &--status{
+                    padding-top: 27.5px;
+                }
+            }
+            &__button{
+                padding: 35px 5px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px) and (max-width: 900px){
+    .ipHasAdminNavbar{
+        .services{
+            &__wrap{
+                &--status{
+                    padding: 0;
+                }
+            }
+            &__button{
+                padding: 25px 5px;
+            }
+        }
+    }
+}
+//User 900px
+@media screen and (max-height: 725px) and (max-width: 900px){
+    .services{
+        &__wrap{
+            &--status{
+                padding-top: 27.5px;
+            }
+        }
+        &__button{
+            padding: 35px 5px;
+        }
+    }
+}
+@media screen and (max-height: 625px) and (max-width: 900px){
+    .services{
+        &__wrap{
+            &--status{
+                padding: 0;
+            }
+        }
+        &__button{
+            padding: 25px 5px;
+        }
+    }
+}
+//Services 750px
+@media screen and (max-width: 750px){
+    .services{
+        &__form{
+            .in{
+                padding-left: 0;
+            }
+        }
+        &__form-title{
+            display: none;
+        }
+        &__form-wrap{
+            width: 100%;
+            padding: 0 35px;
+            .uf-siteForm{
+                max-width: 375px;
+                margin: 0 auto;
+            }
+        }
+        &__title{
+            padding: 0 80px;
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-list{
+                    padding-right: 25.5%;
+                }
+            }
+        }
+    }
+}
+//Services 650px
+@media screen and (max-width: 650px){
+    .services{
+        .in{
+            padding-top: 60px;
+        }
+        &__form{
+            .services__back{
+                top: 25px;
+            }
+        }
+        &__title{
+            display: flex;
+            align-items: center;
+            height: 64px;
+            padding: 0 50px;
+            .ipBlock{
+                width: 100%;
+            }
+            .ipWidget{
+                p{
+                    max-height: 64px;
+                    font-size: 24px;
+                }
+            }
+        }
+        &__wrap{
+            &--problem,&--solve{
+                padding-left: 0;
+                .plugin-service{
+                    left: 0;
+                    width: 100%;
+                }
+            }
+        }
+        &__back{
+            top: 75px;
+            width: 30px;
+            height: 35px;
+            padding: 0;
+            &::before{
+                content: '\f104';
+                overflow: hidden;
+                top: calc(50% - 17.5px);
+                width: 30px;
+                height: 35px;
+                background: none;
+                text-align: center;
+                line-height: 30px;
+                font-family: $ff1;
+                font-size: 35px;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-dots{
+                    width: calc(100% - 2.5% - 20px);
+                }
+            }
+        }
+    }
+}
+//AdminPanel 650px
+@media screen and (max-height: 875px) and (max-width: 650px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__form{
+                    .services__back{
+                        top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 875px) and (min-width: 421px) and (max-width: 650px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__title{
+                    .ipWidget{
+                        p{
+                            max-height: 64px;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (max-width: 650px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__form{
+                    .services__back{
+                        top: 45px;
+                    }
+                }
+                &__back{
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+//NavPanel 650px
+@media screen and (max-height: 775px) and (max-width: 650px){
+    .ipHasAdminNavbar{
+        .services{
+            &__form{
+                .services__back{
+                    top: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 775px) and (min-width: 421px) and (max-width: 650px){
+    .ipHasAdminNavbar{
+        .services{
+            &__title{
+                .ipWidget{
+                    p{
+                        max-height: 64px;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px) and (max-width: 650px){
+    .ipHasAdminNavbar{
+        .services{
+            &__form{
+                .services__back{
+                    top: 45px;
+                }
+            }
+            &__back{
+                left: 0;
+            }
+        }
+    }
+}
+//User 650px
+@media screen and (max-height: 725px) and (max-width: 650px){
+    .services{
+        &__form{
+            .services__back{
+                top: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 725px) and (min-width: 421px) and (max-width: 650px){
+    .services{
+        &__title{
+            .ipWidget{
+                p{
+                    max-height: 64px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 625px) and (max-width: 650px){
+    .services{
+        &__form{
+            .services__back{
+                top: 45px;
+            }
+        }
+        &__back{
+            left: 0;
+        }
+    }
+}
+//Services 500px
+@media screen and (max-width: 500px){
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-list{
+                    padding-right: 17.5%;
+                }
+            }
+        }
+    }
+}
+//Services 420px
+@media screen and (max-width: 420px){
+    .services{
+        &__physical,&__juridical{
+            .in{
+                width: 95%;
+                margin-right: 2.5%;
+            }
+        }
+        &__form-wrap{
+            padding-right: 0;
+            .uf-siteForm{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        &__title{
+            width: 100%;
+            height: 64px;
+            margin-right: 0;
+            padding: 0 30px;
+            .ipWidget{
+                p{
+                    max-height: 54px;
+                    font-size: 20px;
+                }
+            }
+        }
+        &__wrap{
+            &--problem,&--solve{
+                padding-left: 0;
+                .plugin-service{
+                    width: calc(100% + 18px);
+                    margin: 0 -9px;
+                }
+            }
+        }
+        &__button{
+            padding: 40px 5px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__back{
+            width: 25px;
+            &::before{
+                width: 25px;
+            }
+        }
+    }
+    .plugin-service{
+        &__slider{
+            .slick{
+                &-dots{
+                    width: calc(100% - 20px);
+                }
+                &-list{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+//AdminPanel 420px
+@media screen and (max-height: 875px) and (max-width: 420px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__title{
+                    .ipWidget{
+                        p{
+                            max-height: 54px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 420px
+@media screen and (max-height: 775px) and (max-width: 420px){
+    .ipHasAdminNavbar{
+        .services{
+            &__title{
+                .ipWidget{
+                    p{
+                        max-height: 54px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+//User 420px
+@media screen and (max-height: 725px) and (max-width: 420px){
+    .services{
+        &__title{
+            .ipWidget{
+                p{
+                    max-height: 54px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+//FAQ, REVIEWS
+//FAQ, Reviews 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 725px) and (min-width: 1301px){
+    .ipHasAdminPanel{
+        .global{
+            .plugin-info{
+                &__slider{
+                    max-height: 341px;
+                    .slick{
+                        &-slide{
+                            height: 321px;
+                        }
+                    }
+                }
+                &__item{
+                    height: 321px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                &__information{
+                    padding: 0 5px 0 15px;
+                }
+                &__username{
+                    max-height: 54px;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+                &__comment{
+                    height: 192px;
+                    margin-top: 15px;
+                    p{
+                        line-height: 1.35;
+                    }
+                }
+                &__close{
+                    top: 10px;
+                    right: 10px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 625px) and (min-width: 1301px){
+    .ipHasAdminPanel{
+        .global{
+            .plugin-info{
+                &__slider{
+                    max-height: 296px;
+                    .slick{
+                        &-slide{
+                            height: 276px;
+                        }
+                    }
+                }
+                &__item{
+                    height: 276px;
+                }
+                &__username{
+                    max-height: 48px;
+                    h3{
+                        font-size: 18px;
+                    }
+                }
+                &__comment{
+                    height: 147px;
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 625px) and (min-width: 1301px){
+    .ipHasAdminNavbar{
+        .plugin-info{
+            &__slider{
+                max-height: 341px;
+                .slick{
+                    &-slide{
+                        height: 321px;
+                    }
+                }
+            }
+            &__item{
+                height: 321px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            &__information{
+                padding: 0 5px 0 15px;
+            }
+            &__username{
+                max-height: 48px;
+                h3{
+                    font-size: 18px;
+                }
+            }
+            &__comment{
+                height: 192px;
+                margin-top: 15px;
+                p{
+                    line-height: 1.35;
+                }
+            }
+            &__close{
+                top: 10px;
+                right: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 525px) and (min-width: 1301px){
+    .ipHasAdminNavbar{
+        .plugin-info{
+            &__slider{
+                max-height: 296px;
+                .slick{
+                    &-slide{
+                        height: 276px;
+                    }
+                }
+            }
+            &__item{
+                height: 276px;
+            }
+            &__comment{
+                height: 147px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 575px) and (min-width: 1301px){
+    .plugin-info{
+        &__slider{
+            max-height: 341px;
+            .slick{
+                &-slide{
+                    height: 321px;
+                }
+            }
+        }
+        &__item{
+            height: 321px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        &__information{
+            padding: 0 5px 0 15px;
+        }
+        &__username{
+            max-height: 48px;
+            h3{
+                font-size: 18px;
+            }
+        }
+        &__comment{
+            height: 192px;
+            margin-top: 15px;
+            p{
+                line-height: 1.35;
+            }
+        }
+        &__close{
+            top: 10px;
+            right: 10px;
+        }
+    }
+}
+@media screen and (max-height: 475px) and (min-width: 1301px){
+    .plugin-info{
+        &__slider{
+            max-height: 276px;
+            .slick{
+                &-slide{
+                    height: 276px;
+                }
+            }
+        }
+        &__item{
+            height: 276px;
+        }
+        &__comment{
+            height: 147px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 1900px
+@media screen and (max-width: 1900px){
+    .FAQ{
+        &__title{
+            width: 175px;
+        }
+        &__wrap{
+            width: calc(100% - 175px);
+        }
+    }
+    .reviews{
+        &__title{
+            width: 300px;
+        }
+        &__wrap{
+            width: calc(100% - 300px);
+        }
+    }
+    .plugin-info{
+        &__slider{
+            &--FAQ{
+                .slick{
+                    &-prev{
+                        left: -175px;
+                    }
+                    &-next{
+                        left: -120px;
+                    }
+                }
+            }
+            &--reviews{
+                .slick{
+                    &-prev{
+                        left: -300px;
+                    }
+                    &-next{
+                        left: -245px;
+                    }
+                }
+            }
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 15.5%;
+                    }
+                }
+            }
+        }
+        &__item{
+            padding: 30px;
+        }
+        &__information{
+            padding: 0 5px 0 15px;
+        }
+        &__username{
+            max-height: 48px;
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 1750px
+@media screen and (max-width: 1750px){
+    .FAQ{
+        &__title{
+            width: 125px;
+        }
+        &__wrap{
+            width: calc(100% - 125px);
+        }
+    }
+    .reviews{
+        &__title{
+            width: 225px;
+        }
+        &__wrap{
+            width: calc(100% - 225px);
+        }
+    }
+    .plugin-info{
+        &__slider{
+             &--FAQ{
+                .slick{
+                    &-prev{
+                        left: -125px;
+                    }
+                    &-next{
+                        left: -70px;
+                    }
+                }
+            }
+            &--reviews{
+                .slick{
+                    &-prev{
+                        left: -225px;
+                    }
+                    &-next{
+                        left: -170px;
+                    }
+                }
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 1300px
+@media screen and (max-width: 1300px){
+    .FAQ,.reviews{
+        .in{
+            padding-left: 50px;
+        }
+        &__title{
+            margin: 0 2.5% 15px -50px;
+            width: calc(100% + 50px - 2.5%);
+            padding: 0 50px;
+            text-align: center;
+            .ipWidget{
+                h2{
+                    max-height: 48px;
+                    font-size: 36px;
+                }
+            }
+        }
+        &__wrap{
+            width: 100%;
+        }
+    }
+    .plugin-info{
+        &__slider{
+            max-height: 378px;
+            .slick{
+                &-dots{
+                    display: flex!important;
+                }
+                &-slide{
+                    height: 358px;
+                }
+            }
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 25.5%;
+                    }
+                }
+            }
+        }
+        &__item{
+            height: 358px;
+            padding: 30px 15px;
+        }
+        &__question{
+            &--wide{
+                padding-right: 40px;
+            }
+        }
+        &__image{
+            width: 60px;
+        }
+        &__information{
+            width: calc(100% - 110px);
+        }
+        &__comment{
+            height: 192px;
+            p{
+                line-height: 1.35;
+            }
+        }
+        &__close{
+            top: 10px;
+            right: 10px;
+        }
+    }
+}
+//AdminPanel 1300px
+@media screen and (max-height: 750px) and (min-width: 421px) and (max-width: 1300px){
+    .ipHasAdminPanel{
+        .global{
+            .plugin-info{
+                &__slider{
+                    max-height: 288px;
+                    .slick{
+                        &-dots{
+                            top: 303px;
+                        }
+                        &-slide{
+                            height: 268px;
+                        }
+                    }
+                }
+                &__item{
+                    height: 268px;
+                    padding: 15px;
+                }
+                &__comment{
+                    height: 147px;
+                    margin-top: 15px;
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1300px
+@media screen and (max-height: 650px) and (min-width: 421px) and (max-width: 1300px){
+    .ipHasAdminNavbar{
+        .plugin-info{
+            &__slider{
+                max-height: 288px;
+                .slick{
+                    &-dots{
+                        top: 303px;
+                    }
+                    &-slide{
+                        height: 268px;
+                    }
+                }
+            }
+            &__item{
+                height: 268px;
+                padding: 15px;
+            }
+            &__comment{
+                height: 147px;
+                margin-top: 15px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+//User 1300px
+@media screen and (max-height: 600px) and (min-width: 421px) and (max-width: 1300px){
+    .plugin-info{
+        &__slider{
+            max-height: 288px;
+            .slick{
+                &-dots{
+                    top: 303px;
+                }
+                &-slide{
+                    height: 268px;
+                }
+            }
+        }
+        &__item{
+            height: 268px;
+            padding: 15px;
+        }
+        &__comment{
+            height: 147px;
+            margin-top: 15px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 1000px
+@media screen and (max-width: 1000px){
+    .plugin-info{
+        &__slider{
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 7.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 850px
+@media screen and (max-width: 850px){
+    .plugin-info{
+        &__slider{
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 25.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 650px
+@media screen and (max-width: 650px){
+    .FAQ,.reviews{
+        .in{
+            padding: 30px 0;
+        }
+        &__title{
+            margin-left: 0;
+            width: calc(100% - 2.5%);
+            padding: 0;
+            text-align: center;
+        }
+        &__wrap{
+            width: 100%;
+        }
+    }
+    .plugin-info{
+        &__slider{
+            .slick{
+                &-dots{
+                    width: calc(100% - 20px - 2.5%);
+                }
+            }
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 25.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 550px
+@media screen and (max-width: 550px){
+    .plugin-info{
+        &__slider{
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding-right: 10.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+//FAQ,REVIEWS 420px
+@media screen and (max-width: 420px){
+    .FAQ,.reviews{
+        .in{
+            width: 95%;
+            margin-right: 2.5%;
+        }
+        &__title{
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    .plugin-info{
+        &__wide{
+            .plugin-info{
+                &__information{
+                    width: calc(100% - 60px);
+                    padding-right: 0;
+                }
+                &__service{
+                    display: none;
+                }
+            }
+        }
+        &__slider{
+            max-height: 288px;
+            .slick{
+                &-dots{
+                    top: 303px;
+                    width: calc(100% - 20px);
+                }
+                &-slide{
+                    height: 268px;
+                }
+            }
+            &--main-FAQ, &--main-reviews{
+                .slick{
+                    &-list{
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        &__item{
+            height: 268px;
+            padding: 25px 15px;
+        }
+        &__question,&__username{
+            h3{
+                font-size: 16px;
+            }
+        }
+        &__question{
+            max-height: 63px;
+        }
+        &__username{
+            max-height: 42px;
+        }
+        &__comment{
+            height: 126px;
+            margin-top: 25px;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
+//CONTACTS
+//Contacts 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 750px) and (min-width: 1501px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__text{
+                    .ipWidget{
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                    &--description{
+                        padding-bottom: 30px;
+                    }
+                }
+                &__map{
+                    overflow: hidden;
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 1501px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__text{
+                    padding-bottom: 15px;
+                    &--description{
+                        padding-bottom: 15px;
+                    }
+                    &--marker{
+                        &::before{
+                            top: 0;
+                        }
+                    }
+                }
+                &__map{
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 650px) and (min-width: 1501px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__text{
+                .ipWidget{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                &--description{
+                    padding-bottom: 30px;
+                }
+            }
+            &__map{
+                overflow: hidden;
+                height: 350px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1501px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__text{
+                padding-bottom: 15px;
+                &--description{
+                    padding-bottom: 15px;
+                }
+                &--marker{
+                    &::before{
+                        top: 0;
+                    }
+                }
+            }
+            &__map{
+                height: 300px;
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 600px) and (min-width: 1501px){
+    .contacts{
+        &__text{
+            .ipWidget{
+                p{
+                    font-size: 20px;
+                }
+            }
+            &--description{
+                padding-bottom: 30px;
+            }
+        }
+        &__map{
+            overflow: hidden;
+            height: 350px;
+        }
+    }
+}
+@media screen and (max-height: 500px) and (min-width: 1501px){
+    .contacts{
+        &__text{
+            padding-bottom: 15px;
+            &--description{
+                padding-bottom: 15px;
+            }
+            &--marker{
+                &::before{
+                    top: 0;
+                }
+            }
+        }
+        &__map{
+            height: 300px;
+        }
+    }
+}
+//Contacts 1500px
+@media screen and (max-width: 1500px){
+    .contacts{
+        &__info{
+            width: 550px;
+        }
+        &__text{
+            padding-bottom: 20px;
+            .ipWidget{
+                p{
+                    font-size: 22px;
+                }
+            }
+            &--description{
+                padding-bottom: 50px;
+            }
+            &--marker{
+                &::before{
+                    top: 2px;
+                }
+            }
+        }
+        &__map{
+            width: calc(100% - 550px);
+        }
+    }
+}
+//AdminPanel 1500px
+@media screen and (max-height: 750px) and (min-width: 951px) and (max-width: 1500px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__map{
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 951px) and (max-width: 1500px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__text{
+                    padding-bottom: 15px;
+                    .ipWidget{
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                    &--description{
+                        padding-bottom: 30px;
+                    }
+                    &--marker{
+                        &::before{
+                            top: 1px;
+                        }
+                    }
+                }
+                &__map{
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1500px
+@media screen and (max-height: 650px) and (min-width: 951px) and (max-width: 1500px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__map{
+                height: 350px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 951px) and (max-width: 1500px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__text{
+                padding-bottom: 15px;
+                .ipWidget{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                &--description{
+                    padding-bottom: 30px;
+                }
+                &--marker{
+                    &::before{
+                        top: 1px;
+                    }
+                }
+            }
+            &__map{
+                height: 300px;
+            }
+        }
+    }
+}
+//User 1500px
+@media screen and (max-height: 600px) and (min-width: 951px) and (max-width: 1500px){
+    .contacts{
+        &__map{
+            height: 350px;
+        }
+    }
+}
+@media screen and (max-height: 500px) and (min-width: 951px) and (max-width: 1500px){
+    .contacts{
+        &__text{
+            padding-bottom: 15px;
+            .ipWidget{
+                p{
+                    font-size: 20px;
+                }
+            }
+            &--description{
+                padding-bottom: 30px;
+            }
+            &--marker{
+                &::before{
+                    top: 1px;
+                }
+            }
+        }
+        &__map{
+            height: 300px;
+        }
+    }
+}
+//Contacts 1300px
+@media screen and (max-width: 1300px){
+    .contacts{
+        .in{
+            padding-left: 50px;
+        }
+    }
+}
+//Contacts 950px
+@media screen and (max-width: 950px){
+    .contacts{
+        .in{
+            padding-left: 50px;
+        }
+        &__info,&__map{
+            width: 100%;
+        }
+        &__info{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 0 10px 0;
+        }
+        &__title{
+            width: 100%;
+            .ipWidget{
+                h2{
+                    font-size: 24px;
+                }
+            }
+        }
+        &__text{
+            padding-bottom: 10px;
+            .ipWidget{
+                p{
+                    font-size: 16px;
+                }
+            }
+            &--description{
+                width: 100%;
+                padding-bottom: 10px;
+            }
+            &--info{
+                width: calc(50% - 15px);
+            }
+            &--marker{
+                padding-left: 35px;
+                &::before{
+                    top: 1px;
+                    width: 20px;
+                    height: 20px;
+                    background-size: contain;
+                }
+            }
+        }
+        &__map{
+            height: 300px;
+        }
+    }
+}
+//AdminPanel 950px
+@media screen and (max-height: 800px) and (min-width: 551px) and (max-width: 950px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__map{
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 950px
+@media screen and (max-height: 700px) and (min-width: 551px) and (max-width: 950px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__map{
+                height: 200px;
+            }
+        }
+    }
+}
+//User 950px
+@media screen and (max-height: 650px) and (min-width: 551px) and (max-width: 950px){
+    .contacts{
+        &__map{
+            height: 200px;
+        }
+    }
+}
+//Contacts 650px
+@media screen and (max-width: 650px){
+    .contacts{
+        .in{
+            width: 95%;
+            margin: 0 auto;
+            padding-left: 0;
+        }
+        &__title{
+            text-align: center;
+        }
+        &__text{
+            &--description{
+                text-align: center;
+            }
+        }
+    }
+}
+//Contacts 550px
+@media screen and (max-width: 550px){
+    .contacts{
+        &__text{
+            &--info{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+//AdminPanel 550px
+@media screen and (max-height: 850px) and (max-width: 550px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__map{
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 550px
+@media screen and (max-height: 750px) and (max-width: 550px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__map{
+                height: 200px;
+            }
+        }
+    }
+}
+//User 550px
+@media screen and (max-height: 700px) and (max-width: 550px){
+    .global{
+        .contacts{
+            &__map{
+                height: 200px;
+            }
+        }
+    }
+}
+//Contacts 420px
+@media screen and (max-width: 420px){
+    .contacts{
+        &__text{
+            .ipWidget{
+                p{
+                    font-size: 14px;
+                }
+            }
+            &--marker{
+                &::before{
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+/////MAINSIDE/////

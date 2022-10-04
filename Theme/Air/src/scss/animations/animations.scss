@@ -1,0 +1,70 @@
+/////VERTICAL SLIDE/////
+/////
+@keyframes scrollCurrentUp{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -100%;
+    }
+
+}
+@keyframes scrollNewUp{
+    0%{
+        top: 100%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@keyframes scrollCurrentDown{
+    0%{
+        bottom: 0;
+    }
+    100%{
+        bottom: -100%;
+    }
+}
+@keyframes scrollNewDown{
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+/////
+/////HORIZONTAL SLIDE/////
+/////
+@keyframes scrollCurrentLeft{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes scrollCurrentRight{
+    0%{
+        right: 0;
+    }
+    100%{
+        right: 100%;
+    }
+}
+@keyframes scrollNewLeft{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes scrollNewRight{
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 0;
+    }
+}

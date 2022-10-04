@@ -1,0 +1,500 @@
+/////SERVICES/////
+/////
+/////PHYSICAL/////
+//PROBLEM//
+//CURRENT_UP_PROBLEM
+@keyframes UpCurProblemBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1500px, -1500px);
+    }
+}
+@keyframes UpCurProblemTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-50px, -500px);
+    }
+}
+@keyframes UpCurProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, -150px);
+    }
+}
+@keyframes UpCurProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-300px, -500px);
+    }
+}
+//NEW_UP_PROBLEM
+@keyframes UpNewProblemBottomFigurePhysical{
+    0%{
+        transform: translate(400px, 1000px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemTopFigurePhysical{
+    0%{
+        transform: translate(-50px, 500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(150px, 200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(-300px, 600px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN_PROBLEM
+@keyframes DownCurProblemBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(400px, 300px);
+    }
+}
+@keyframes DownCurProblemTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-50px, 500px);
+    }
+}
+@keyframes DownCurProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, 600px);
+    }
+}
+@keyframes DownCurProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-300px, 600px);
+    }
+}
+//NEW_DOWN_PROBLEM
+@keyframes DownNewProblemBottomFigurePhysical{
+    0%{
+        transform: translate(1550px, -1550px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemTopFigurePhysical{
+    0%{
+        transform: translate(-50px, -150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(150px, -200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(-300px, -500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//NEW_RIGHT_PROBLEM
+@keyframes RightNewProblemBottomFigurePhysical{
+    0%{
+        transform: translate(1450px, -150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemTopFigurePhysical{
+    0%{
+        transform: translate(2000px, -125px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(1500px, -50px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(1000px, -50px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_LEFT_PROBLEM
+@keyframes LeftCurProblemBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1450px, -150px);
+    }
+}
+@keyframes LeftCurProblemTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(2000px, -125px);
+    }
+}
+@keyframes LeftCurProblemMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1500px, -50px);
+    }
+}
+@keyframes LeftCurProblemMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1000px, -50px);
+    }
+}
+//SOLVE//
+//CURRENT_UP_SOLVE
+@keyframes UpCurSolveBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(300px, -1000px);
+    }
+}
+@keyframes UpCurSolveTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-150px, -350px);
+    }
+}
+@keyframes UpCurSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, -150px);
+    }
+}
+@keyframes UpCurSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-50px, -400px);
+    }
+}
+//NEW_UP_SOLVE
+@keyframes UpNewSolveBottomFigurePhysical{
+    0%{
+        transform: translate(300px, 800px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewSolveTopFigurePhysical{
+    0%{
+        transform: translate(-500px, 1100px) rotate(-100deg);
+    }
+    100%{
+        transform: translate(0, 0) rotate(0);
+    }
+}
+@keyframes UpNewSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(-300px, 150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(-200px, 100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN_SOLVE
+@keyframes DownCurSolveBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(300px, 350px);
+    }
+}
+@keyframes DownCurSolveTopFigurePhysical{
+    0%{
+        transform: translate(0, 0) rotate(0);
+    }
+    100%{
+        transform: translate(-450px, 1000px) rotate(-100deg);
+    }
+}
+@keyframes DownCurSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, 300px);
+    }
+}
+@keyframes DownCurSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(100px, 100px);
+    }
+}
+//NEW_DOWN_SOLVE
+@keyframes DownNewSolveBottomFigurePhysical{
+    0%{
+        transform: translate(300px, -900px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewSolveTopFigurePhysical{
+    0%{
+        transform: translate(-150px, -150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(100px, -100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(-150px, -225px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_RIGHT_SOLVE
+@keyframes RightCurSolveBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-2150px, 300px);
+    }
+}
+@keyframes RightCurSolveTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-1100px, 150px);
+    }
+}
+@keyframes RightCurSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-1550px, 100px);
+    }
+}
+@keyframes RightCurSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-1500px, 100px);
+    }
+}
+//NEW_LEFT_SOLVE
+@keyframes LeftNewSolveBottomFigurePhysical{
+    0%{
+        transform: translate(-2150px, 300px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes LeftNewSolveTopFigurePhysical{
+    0%{
+        transform: translate(-1100px, 150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes LeftNewSolveMidSmallFigurePhysical{
+    0%{
+        transform: translate(-1550px, 100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes LeftNewSolveMidBigFigurePhysical{
+    0%{
+        transform: translate(-1500px, 100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//SWITCHER_PROBLEM_TO_SOLVE_AND_BACK//
+//NEXT_SOLVE
+@keyframes NextProblemBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(465px, 1330px);
+    }
+}
+@keyframes NextSolveBottomFigurePhysical{
+    0%{
+        transform: translate(-405px, 700px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes NextProblemTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(250px, -250px);
+    }
+}
+@keyframes NextSolveTopFigurePhysical{
+    0%{
+        transform: translate(-125px, -235px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes NextMidSmallFigurePhysical{
+    0%{
+        transform: translate(-235px, 10px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes NextMidBigFigurePhysical{
+    0%{
+        transform: translate(530px, -580px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//PREV_PROBLEM
+@keyframes PrevProblemBottomFigurePhysical{
+    0%{
+        transform: translate(465px, 1330px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes PrevSolveBottomFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-405px, 700px);
+    }
+}
+@keyframes PrevProblemTopFigurePhysical{
+    0%{
+        transform: translate(250px, -250px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes PrevSolveTopFigurePhysical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-125px, -235px);
+    }
+}
+@keyframes PrevMidSmallFigurePhysical{
+    0%{
+        transform: translate(235px, -10px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes PrevMidBigFigurePhysical{
+    0%{
+        transform: translate(-530px, 580px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}

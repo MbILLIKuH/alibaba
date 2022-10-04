@@ -1,0 +1,102 @@
+/////REVIEWS/////
+/////
+//CURRENT_UP
+@keyframes UpCurBotBigFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(2500px, -2500px);
+    }
+}
+@keyframes UpCurBotSmallFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1650px, -2750px);
+    }
+}
+@keyframes UpCurTopFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, -250px);
+    }
+}
+//NEW_UP
+@keyframes UpNewBotBigFigureReviews{
+    0%{
+        transform: translate(2500px, 500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewBotSmallFigureReviews{
+    0%{
+        transform: translate(1450px, 1250px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewTopFigureReviews{
+    0%{
+        transform: translate(250px, 500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN
+@keyframes DownCurBotBigFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(300px, 350px);
+    }
+}
+@keyframes DownCurBotSmallFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(350px, 600px);
+    }
+}
+@keyframes DownCurTopFigureReviews{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, 500px);
+    }
+}
+//NEW_DOWN
+@keyframes DownNewBotBigFigureReviews{
+    0%{
+        transform: translate(2250px, -1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewBotSmallFigureReviews{
+    0%{
+        transform: translate(1250px, -1800px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewTopFigureReviews{
+    0%{
+        transform: translate(150px, -300px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}

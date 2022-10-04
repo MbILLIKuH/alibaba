@@ -1,0 +1,52 @@
+/////CONTACTS/////
+/////
+//NEW_UP
+@keyframes UpNewTopBigFigureContacts{
+    0%{
+        transform: translate(-350px, 450px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewTopSmallFigureContacts{
+    0%{
+        transform: translate(-100px, 425px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewBotFigureContacts{
+    0%{
+        transform: translate(-350px, 450px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN
+@keyframes DownCurTopBigFigureContacts{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-275px, 300px);
+    }
+}
+@keyframes DownCurTopSmallFigureContacts{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-125px, 300px);
+    }
+}
+@keyframes DownCurBotFigureContacts{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-325px, 400px);
+    }
+}

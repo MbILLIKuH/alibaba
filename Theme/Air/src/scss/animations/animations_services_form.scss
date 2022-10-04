@@ -1,0 +1,153 @@
+/////SERVICES/////
+/////
+/////FORM/////
+//CURRENT_UP
+@keyframes UpCurLeftBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(500px, -1500px);
+    }
+}
+@keyframes UpCurRightBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{;
+        transform: translate(-250px, -1500px);
+    }
+}
+@keyframes UpCurSmallFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, -1500px);
+    }
+}
+//NEW_UP
+@keyframes UpNewLeftBigFigureForm{
+    0%{
+        transform: translate(500px, 1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewRightBigFigureForm{
+    0%{
+        transform: translate(-250px, 1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewSmallFigureForm{
+    0%{
+        transform: translate(-200px, 1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN
+@keyframes DownCurLeftBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(500px, 1500px);
+    }
+}
+@keyframes DownCurRightBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-250px, 1500px);
+    }
+}
+@keyframes DownCurSmallFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, 1500px);
+    }
+}
+//NEW_DOWN
+@keyframes DownNewLeftBigFigureForm{
+    0%{
+        transform: translate(500px, -1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewRightBigFigureForm{
+    0%{
+        transform: translate(-250px, -1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewSmallFigureForm{
+    0%{
+        transform: translate(-200px, -1500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//NEW_RIGHT
+@keyframes RightNewLeftBigFigureForm{
+    0%{
+        transform: translate(1900px, -500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewRightBigFigureForm{
+    0%{
+        transform: translate(1900px, 500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewSmallFigureForm{
+    0%{
+        transform: translate(1700px, -1200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_LEFT
+@keyframes LeftCurLeftBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1900px, -500px);
+    }
+}
+@keyframes LeftCurRightBigFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1900px, 500px);
+    }
+}
+@keyframes LeftCurSmallFigureForm{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1700px, -1200px);
+    }
+}

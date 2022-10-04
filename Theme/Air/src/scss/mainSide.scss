@@ -1,0 +1,13 @@
+.global{
+    &--main{
+        padding: 99px 0 75px 0;
+        .in{
+            &.-right{
+                padding-left: 0;
+            }
+        }
+    }
+}
+.main{
+    padding: 30px 0;
+}

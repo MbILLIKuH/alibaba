@@ -1,0 +1,44 @@
+$slido-url:'/Theme/Air/src/Modules/Slido/img';
+//$slido-url:'/Theme/Air/src/img';
+
+$slido-left-url: 'left.png';
+$slido-right-url: 'right.png';
+$slido-pager-url: '07_indikator_B.png';
+
+$slido-ctrl-w: 38px;
+$slido-ctrl-h: 15px;
+
+@mixin slido-left{
+    top: calc(50% - 7px);
+    left: 0;
+    background: url($slido-url+"/"+$slido-left-url) 0 50% no-repeat;
+    &:hover{
+        background-position: 100% 0;
+    }
+}
+@mixin slido-right{
+    top: calc(50% - 7px);
+    right: 0;
+    background: url($slido-url+"/"+$slido-right-url) 0 50% no-repeat;
+    &:hover{
+        background-position: 100% 0;
+    }
+}
+@mixin slido-pager(){
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@mixin slido-pager-li(){
+    width: 12px;height: 12px;
+    font-family: $ff;
+    color: #666666;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0 15px;    
+    background: url($slido-url+"/"+$slido-pager-url) 0% 0% no-repeat;
+    &.active,&:hover{
+        background-size: 100% 0;
+        color: #E6B06B;
+    }
+}

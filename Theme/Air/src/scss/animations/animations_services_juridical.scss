@@ -1,0 +1,468 @@
+/////SERVICES/////
+/////
+/////JURIDICAL/////
+//PROBLEM//
+//CURRENT_UP_PROBLEM
+@keyframes UpCurProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(700px, -900px);
+    }
+}
+@keyframes UpCurProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(400px, -1000px);
+    }
+}
+@keyframes UpCurProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(150px, -750px);
+    }
+}
+@keyframes UpCurProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-150px, -250px);
+    }
+}
+//NEW_UP_PROBLEM
+@keyframes UpNewProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(700px, 200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(500px, 200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(100px, 150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(-250px, 500px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN_PROBLEM
+@keyframes DownCurProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(700px, 200px);
+    }
+}
+@keyframes DownCurProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(500px, 200px);
+    }
+}
+@keyframes DownCurProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(50px, 150px);
+    }
+}
+@keyframes DownCurProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(50px, 500px);
+    }
+}
+//NEW_DOWN_PROBLEM
+@keyframes DownNewProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(700px, -900px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(500px, -700px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(50px, -300px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(-250px, -200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//NEW_RIGHT_PROBLEM
+@keyframes RightNewProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(2250px, 150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(1850px, 50px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(1400px, -100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes RightNewProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(1350px, -50px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_LEFT_PROBLEM
+@keyframes LeftCurProblemLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1750px, 100px);
+    }
+}
+@keyframes LeftCurProblemRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(2150px, 50px);
+    }
+}
+@keyframes LeftCurProblemBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1600px, -100px);
+    }
+}
+@keyframes LeftCurProblemTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1800px, -75px);
+    }
+}
+//SOLVE//
+//CURRENT_UP_SOLVE
+@keyframes UpCurSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+    100%{
+        transform: translate(500px, -500px) rotate(0);
+    }
+}
+@keyframes UpCurSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+    100%{
+        transform: translate(150px, -350px) rotate(0);
+    }
+}
+@keyframes UpCurSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-150px, -300px);
+    }
+}
+@keyframes UpCurSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-200px, -100px);
+    }
+}
+//NEW_UP_SOLVE
+@keyframes UpNewSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(375px, 275px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+}
+@keyframes UpNewSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(150px, 400px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+}
+@keyframes UpNewSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(-150px, 200px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes UpNewSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(-150px, 450px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_DOWN_SOLVE
+@keyframes DownCurSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+    100%{
+        transform: translate(400px, 300px) rotate(0);
+    }
+}
+@keyframes DownCurSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+    100%{
+        transform: translate(150px, 400px) rotate(0);
+    }
+}
+@keyframes DownCurSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-150px, 300px);
+    }
+}
+@keyframes DownCurSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-175px, 400px);
+    }
+}
+//NEW_DOWN_SOLVE
+@keyframes DownNewSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(700px, -850px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+}
+@keyframes DownNewSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(325px, -575px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+}
+@keyframes DownNewSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(-150px, -400px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes DownNewSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(-175px, -150px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//CURRENT_RIGHT_SOLVE
+@keyframes RightCurSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+    100%{
+        transform: translate(-2000px, 450px) rotate(0);
+    }
+}
+@keyframes RightCurSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+    100%{
+        transform: translate(-2250px, 600px) rotate(0);
+    }
+}
+@keyframes RightCurSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-1800px, 100px);
+    }
+}
+@keyframes RightCurSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-1700px, 100px);
+    }
+}
+//NEW_LEFT_SOLVE
+@keyframes LeftNewSolveLeftBigFigureJuridical{
+    0%{
+        transform: translate(-2000px, 400px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+}
+@keyframes LeftNewSolveRightBigFigureJuridical{
+    0%{
+        transform: translate(-2250px, 600px) rotate(0);
+    }
+    100%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+}
+@keyframes LeftNewSolveBottomSmallFigureJuridical{
+    0%{
+        transform: translate(-1800px, 100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes LeftNewSolveTopSmallFigureJuridical{
+    0%{
+        transform: translate(-1700px, 100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+//SWITCHER_PROBLEM_TO_SOLVE_AND_BACK//
+//NEXT_SOLVE
+@keyframes NextLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(0);
+    }
+    100%{
+        transform: translate(335px, -220px) rotate(-65deg);
+    }
+}
+@keyframes NextRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(0);
+    }
+    100%{
+        transform: translate(745px, -270px) rotate(-125deg);
+    }
+}
+@keyframes NextBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-60px, 40px);
+    }
+}
+@keyframes NextTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-175px, 0);
+    }
+}
+//PREV_PROBLEM
+@keyframes PrevLeftBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-65deg);
+    }
+    100%{
+        transform: translate(-335px, 220px) rotate(0);
+    }
+}
+@keyframes PrevRightBigFigureJuridical{
+    0%{
+        transform: translate(0, 0) rotate(-125deg);
+    }
+    100%{
+        transform: translate(-745px, 270px) rotate(0);
+    }
+}
+@keyframes PrevBottomSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(60px, -40px);
+    }
+}
+@keyframes PrevTopSmallFigureJuridical{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(175px, 0);
+    }
+}

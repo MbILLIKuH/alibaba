@@ -1,0 +1,1189 @@
+/*.ipHasAdminNavbar{
+    .services{
+    	&__status{
+			&.-scrollCurrentRight,&.-scrollNewLeft{
+				.services__status-background{
+					top: 40px;
+					height: calc(100vh - 40px);
+				}
+			}
+		}
+		&.-scrollCurrentRight,&.-scrollNewRight,&.-scrollCurrentLeft,&.-scrollNewLeft{
+			.services__physical-background,.services__juridical-background{
+				top: 40px;
+				height: calc(100vh - 40px);
+			}
+		}
+		&__form{
+			&.-scrollNewRight,&.-scrollCurrentLeft{
+				.services__form-background{
+					top: 40px;
+					height: calc(100vh - 40px);
+				}
+			}
+		}
+    }
+}
+.ipHasAdminPanel{
+    .services{
+    	&__status{
+			&.-scrollCurrentRight,&.-scrollNewLeft{
+				.services__status-background{
+					top: 148px;
+					height: calc(100vh - 148px);
+				}
+			}
+		}
+		&.-scrollCurrentRight,&.-scrollNewRight,&.-scrollCurrentLeft,&.-scrollNewLeft{
+			.services__physical-background,.services__juridical-background{
+				top: 148px;
+				height: calc(100vh - 148px);
+			}
+		}
+		&__form{
+			&.-scrollNewRight,&.-scrollCurrentLeft{
+				.services__form-background{
+					top: 148px;
+					height: calc(100vh - 148px);
+				}
+			}
+		}
+    }
+}*/
+.services{
+/////STATUS/////
+	&__status{
+		&.-active{
+			.services__status-circle{
+				opacity: 1;
+			}
+		}
+		&.-scrollCurrentUp{
+			.services{
+				&__status-circle{
+					opacity: 0;
+				}
+				&__status-left-big-figure{
+					animation: UpCurLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: UpCurRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: UpCurBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: UpCurTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewUp{
+			.services{
+				&__status-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__status-left-big-figure{
+					animation: UpNewLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: UpNewRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: UpNewBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: UpNewTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollCurrentDown{
+			.services{
+				&__status-circle{
+					opacity: 0;
+				}
+				&__status-left-big-figure{
+					animation: DownCurLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: DownCurRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: DownCurBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: DownCurTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewDown{
+			.services{
+				&__status-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__status-left-big-figure{
+					animation: DownNewLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: DownNewRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: DownNewBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: DownNewTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollCurrentRight,&.-scrollNewLeft{
+			.services__status-background{
+				overflow: hidden;
+				position: fixed;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				max-width: 1920px;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&.-scrollCurrentRight{
+			.services{
+				&__status-circle{
+					opacity: 0;
+				}
+				&__status-left-big-figure{
+					animation: RightCurLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: RightCurRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: RightCurBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: RightCurTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewLeft{
+			.services{
+				&__status-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__status-left-big-figure{
+					animation: LeftNewLeftBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-right-big-figure{
+					animation: LeftNewRightBigFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-bottom-small-figure{
+					animation: LeftNewBotSmallFigureStatus $durationFigure ease-in-out;
+				}
+				&__status-top-small-figure{
+					animation: LeftNewTopSmallFigureStatus $durationFigure ease-in-out;
+				}
+			}
+		}
+	}
+	&__status-circle{
+		opacity: 0;
+		transition: opacity 1s ease;
+		top: -1085px;
+		left: calc(50% - 1225px);
+		width: 1764px;
+		height: 1768px;
+		//background-image: url($url+'/02_backgrounds/02_status_circle.png');
+	}
+	&__status-left-big-figure{
+		bottom: -265px;
+		left: calc(50% + 155px);
+		width: 656px;
+		height: 823px;
+		//background-image: url($url+'/02_backgrounds/02_status_bg_01.png');
+	}
+	&__status-right-big-figure{
+		bottom: -175px;
+		left: calc(50% + 390px);
+		width: 619px;
+		height: 712px;
+		//background-image: url($url+'/02_backgrounds/02_status_bg_02.png');
+	}
+	&__status-bottom-small-figure{
+		bottom: 40px;
+		left: calc(50% - 600px);
+		width: 197px;
+		height: 207px;
+		//background-image: url($url+'/02_backgrounds/02_status_bg_03.png');
+	}
+	&__status-top-small-figure{
+		top: -75px;
+		left: calc(50% - 285px);
+		width: 165px;
+		height: 148px;
+		//background-image: url($url+'/02_backgrounds/02_status_bg_04.png');
+	}
+/////PHYSICAL/////
+	&__physical{
+		.section__background{
+			&.-problem{
+				.services{
+					&__physical-problem-bottom-figure{
+						bottom: -670px;
+						left: calc(50% - 15px);
+					}
+					&__physical-solve-bottom-figure{
+						visibility: hidden;
+						bottom: -1175px;
+        				left: calc(50% - 250px);
+					}
+					&__physical-problem-top-figure{
+						top: -120px;
+						left: calc(50% - 400px);
+					}
+					&__physical-solve-top-figure{
+						visibility: hidden;
+						top: -750px;
+        				left: calc(50% - 550px);
+					}
+					&__physical-middle-small-figure{
+						top: 30px;
+						left: calc(50% - 180px);
+					}
+					&__physical-middle-big-figure{
+						bottom: 600px;
+						left: calc(50% + 415px);
+					}
+				}
+				&.-animation{
+					.services{
+						&__physical-problem-bottom-figure{
+							animation: PrevProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-bottom-figure{
+							visibility: visible;
+							bottom: -475px;
+							left: calc(50% + 155px);
+							animation: PrevSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: PrevProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							visibility: visible;
+							top: -515px;
+							left: calc(50% - 425px);
+							animation: PrevSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: PrevMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: PrevMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+			&.-solve{
+				.services{
+					&__physical-problem-bottom-figure{
+						visibility: hidden;
+						bottom: -2000px;
+						left: calc(50% + 450px);
+					}
+					&__physical-solve-bottom-figure{
+						bottom: -475px;
+						left: calc(50% + 155px);
+					}
+					&__physical-problem-top-figure{
+						visibility: hidden;
+						top: -350px;
+						left: calc(50% - 150px);
+					}
+					&__physical-solve-top-figure{
+						top: -515px;
+						left: calc(50% - 425px);
+					}
+					&__physical-middle-small-figure{
+						top: 20px;
+						left: calc(50% + 55px);
+					}
+					&__physical-middle-big-figure{
+						bottom: 20px;
+						left: calc(50% - 115px);
+					}
+				}
+				&.-animation{
+					.services{
+						&__physical-problem-bottom-figure{
+							visibility: visible;
+							bottom: -670px;
+							left: calc(50% - 15px);
+							animation: NextProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-bottom-figure{
+							animation: NextSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							visibility: visible;
+							top: -120px;
+							left: calc(50% - 400px);
+							animation: NextProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: NextSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: NextMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: NextMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-active{
+			.services__physical-circle{
+				opacity: 1;
+			}
+		}
+		&.-scrollCurrentUp{
+			.section__background{
+				.services__physical-circle{
+					opacity: 0;
+				}
+				&.-problem{
+					.services{
+						&__physical-problem-bottom-figure{
+							animation: UpCurProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: UpCurProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: UpCurProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: UpCurProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__physical-solve-bottom-figure{
+							animation: UpCurSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: UpCurSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: UpCurSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: UpCurSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewUp{
+			.section__background{
+				.services__physical-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&.-problem{
+					.services{
+						&__physical-problem-bottom-figure{
+							animation: UpNewProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: UpNewProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: UpNewProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: UpNewProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__physical-solve-bottom-figure{
+							animation: UpNewSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: UpNewSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: UpNewSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: UpNewSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentDown{
+			.section__background{
+				.services__physical-circle{
+					opacity: 0;
+				}
+				&.-problem{
+					.services{
+						&__physical-problem-bottom-figure{
+							animation: DownCurProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: DownCurProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: DownCurProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: DownCurProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__physical-solve-bottom-figure{
+							animation: DownCurSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: DownCurSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: DownCurSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: DownCurSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewDown{
+			.section__background{
+				.services__physical-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&.-problem{
+					.services{
+						&__physical-problem-bottom-figure{
+							animation: DownNewProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: DownNewProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: DownNewProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: DownNewProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__physical-solve-bottom-figure{
+							animation: DownNewSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: DownNewSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: DownNewSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: DownNewSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentRight,&.-scrollNewRight,&.-scrollCurrentLeft,&.-scrollNewLeft{
+			.services__physical-background{
+				overflow: hidden;
+				position: fixed;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				max-width: 1920px;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&.-scrollCurrentRight{
+			.section__background{
+				&.-solve{
+					.services{
+						&__physical-circle{
+							opacity: 0;
+						}
+						&__physical-solve-bottom-figure{
+							animation: RightCurSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: RightCurSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: RightCurSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: RightCurSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewRight{
+			.section__background{
+				&.-problem{
+					.services{
+						&__physical-circle{
+							transition: opacity 2s ease;
+							opacity: 1;
+						}
+						&__physical-problem-bottom-figure{
+							animation: RightNewProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: RightNewProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: RightNewProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: RightNewProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentLeft{
+			.section__background{
+				&.-problem{
+					.services{
+						&__physical-circle{
+							opacity: 0;
+						}
+						&__physical-problem-bottom-figure{
+							animation: LeftCurProblemBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-problem-top-figure{
+							animation: LeftCurProblemTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: LeftCurProblemMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: LeftCurProblemMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewLeft{
+			.section__background{
+				&.-solve{
+					.services{
+						&__physical-circle{
+							opacity: 0;
+						}
+						&__physical-solve-bottom-figure{
+							animation: LeftNewSolveBottomFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-solve-top-figure{
+							animation: LeftNewSolveTopFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-small-figure{
+							animation: LeftNewSolveMidSmallFigurePhysical $durationFigure ease-in-out;
+						}
+						&__physical-middle-big-figure{
+							animation: LeftNewSolveMidBigFigurePhysical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+	}
+	&__physical-circle{
+		opacity: 0;
+		transition: opacity 1s ease;
+		top: calc(50% - 616.5px);
+		left: calc(50% - 1185px);
+		width: 1233px;
+		height: 1229px;
+	}
+	&__physical-problem-bottom-figure{
+		width: 1233px;
+		height: 1345px;
+	}
+	&__physical-solve-bottom-figure{
+		width: 799px;
+		height: 798px;
+	}
+	&__physical-problem-top-figure{
+		width: 248px;
+		height: 247px;
+	}
+	&__physical-solve-top-figure{
+		width: 546px;
+		height: 660px;
+	}
+	&__physical-middle-small-figure{
+		width: 50px;
+		height: 51px;
+	}
+	&__physical-middle-big-figure{
+		width: 98px;
+		height:	99px;
+	}
+/////JURIDICAL/////
+	&__juridical{
+		.section__background{
+			&.-problem{
+				.services{
+					&__juridical-left-big-figure{
+						bottom: -450px;
+						left: calc(50% - 250px);
+					}
+					&__juridical-right-big-figure{
+						bottom: -310px;
+						left: calc(50% - 350px);
+					}
+					&__juridical-bottom-small-figure{
+						bottom: -10px;
+						left: calc(50% + 355px);
+					}
+					&__juridical-top-small-figure{
+						top: -75px;
+						left: calc(50% + 100px);
+					}
+				}
+				&.-animation{
+					.services{
+						&__juridical-left-big-figure{
+							bottom: -230px;
+							left: calc(50% + 85px);
+							transform: rotate(-65deg);
+							animation: PrevLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							bottom: -40px;
+							left: calc(50% + 395px);
+							transform: rotate(-125deg);
+							animation: PrevRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							bottom: -50px;
+							left: calc(50% + 295px);
+							animation: PrevBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							top: -75px;
+							left: calc(50% - 75px);
+							animation: PrevTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+			&.-solve{
+				.services{
+					&__juridical-left-big-figure{
+						bottom: -230px;
+						left: calc(50% + 85px);
+						transform: rotate(-65deg);
+					}
+					&__juridical-right-big-figure{
+						bottom: -40px;
+						left: calc(50% + 395px);
+						transform: rotate(-125deg);
+					}
+					&__juridical-bottom-small-figure{
+						bottom: -50px;
+						left: calc(50% + 295px);
+					}
+					&__juridical-top-small-figure{
+						top: -75px;
+						left: calc(50% - 75px);
+					}
+				}
+				&.-animation{
+					.services{
+						&__juridical-left-big-figure{
+							bottom: -450px;
+							left: calc(50% - 250px);
+							animation: NextLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							bottom: -310px;
+							left: calc(50% - 350px);
+							animation: NextRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							bottom: -10px;
+							left: calc(50% + 355px);
+							animation: NextBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							top: -75px;
+							left: calc(50% + 100px);
+							animation: NextTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-active{
+			.services__juridical-circle{
+				opacity: 1;
+			}
+		}
+		&.-scrollCurrentUp{
+			.section__background{
+				.services__juridical-circle{
+					opacity: 0;
+				}
+				&.-problem{
+					.services{
+						&__juridical-left-big-figure{
+							animation: UpCurProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: UpCurProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: UpCurProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: UpCurProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__juridical-left-big-figure{
+							animation: UpCurSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: UpCurSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: UpCurSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: UpCurSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewUp{
+			.section__background{
+				.services__juridical-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&.-problem{
+					.services{
+						&__juridical-left-big-figure{
+							animation: UpNewProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: UpNewProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: UpNewProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: UpNewProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__juridical-left-big-figure{
+							animation: UpNewSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: UpNewSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: UpNewSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: UpNewSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentDown{
+			.section__background{
+				.services__juridical-circle{
+					opacity: 0;
+				}
+				&.-problem{
+					.services{
+						&__juridical-left-big-figure{
+							animation: DownCurProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: DownCurProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: DownCurProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: DownCurProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__juridical-left-big-figure{
+							animation: DownCurSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: DownCurSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: DownCurSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: DownCurSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewDown{
+			.section__background{
+				.services__juridical-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&.-problem{
+					.services{
+						&__juridical-left-big-figure{
+							animation: DownNewProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: DownNewProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: DownNewProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: DownNewProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+				&.-solve{
+					.services{
+						&__juridical-left-big-figure{
+							animation: DownNewSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: DownNewSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: DownNewSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: DownNewSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentRight,&.-scrollNewRight,&.-scrollCurrentLeft,&.-scrollNewLeft{
+			.services__juridical-background{
+				overflow: hidden;
+				position: fixed;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				max-width: 1920px;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&.-scrollCurrentRight{
+			.section__background{
+				&.-solve{
+					.services{
+						&__juridical-circle{
+							opacity: 0;
+						}
+						&__juridical-left-big-figure{
+							animation: RightCurSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: RightCurSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: RightCurSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: RightCurSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewRight{
+			.section__background{
+				&.-problem{
+					.services{
+						&__juridical-circle{
+							transition: opacity 2s ease;
+							opacity: 1;
+						}
+						&__juridical-left-big-figure{
+							animation: RightNewProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: RightNewProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: RightNewProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: RightNewProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollCurrentLeft{
+			.section__background{
+				&.-problem{
+					.services{
+						&__juridical-circle{
+							opacity: 0;
+						}
+						&__juridical-left-big-figure{
+							animation: LeftCurProblemLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: LeftCurProblemRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: LeftCurProblemBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: LeftCurProblemTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+		&.-scrollNewLeft{
+			.section__background{
+				&.-solve{
+					.services{
+						&__juridical-circle{
+							opacity: 0;
+						}
+						&__juridical-left-big-figure{
+							animation: LeftNewSolveLeftBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-right-big-figure{
+							animation: LeftNewSolveRightBigFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-bottom-small-figure{
+							animation: LeftNewSolveBottomSmallFigureJuridical $durationFigure ease-in-out;
+						}
+						&__juridical-top-small-figure{
+							animation: LeftNewSolveTopSmallFigureJuridical $durationFigure ease-in-out;
+						}
+					}
+				}
+			}
+		}
+	}
+	&__juridical-circle{
+		opacity: 0;
+		transition: opacity 1s ease;
+		top: -685px;
+		left: calc(50% - 90px);
+		width: 1176px;
+		height: 1179px;
+		img{
+			width: 1176px;
+			height: 1179px;
+		}
+	}
+	&__juridical-left-big-figure{
+		width: 1136px;
+		height: 780px;
+	}
+	&__juridical-right-big-figure{
+		width: 798px;
+		height: 454px;
+	}
+	&__juridical-bottom-small-figure{
+		width: 197px;
+		height: 207px;
+	}
+	&__juridical-top-small-figure{
+		width: 189px;
+		height: 165px;
+	}
+/////FORM/////
+	&__form{
+		&.-active{
+			.services__form-circle{
+				opacity: 1;
+			}
+		}
+		&.-scrollCurrentUp{
+			.services{
+				&__form-circle{
+					opacity: 0;
+				}
+				&__form-left-big-figure{
+					animation: UpCurLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: UpCurRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: UpCurSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewUp{
+			.services{
+				&__form-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__form-left-big-figure{
+					animation: UpNewLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: UpNewRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: UpNewSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollCurrentDown{
+			.services{
+				&__form-circle{
+					opacity: 0;
+				}
+				&__form-left-big-figure{
+					animation: DownCurLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: DownCurRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: DownCurSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewDown{
+			.services{
+				&__form-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__form-left-big-figure{
+					animation: DownNewLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: DownNewRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: DownNewSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollNewRight,&.-scrollCurrentLeft{
+			.services{
+				&__form-background{
+					overflow: hidden;
+					position: fixed;
+					top: 0;
+					left: 50%;
+					transform: translateX(-50%);
+					max-width: 1920px;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+		&.-scrollNewRight{
+			.services{
+				&__form-circle{
+					transition: opacity 2s ease;
+					opacity: 1;
+				}
+				&__form-left-big-figure{
+					animation: RightNewLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: RightNewRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: RightNewSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+		&.-scrollCurrentLeft{
+			.services{
+				&__form-circle{
+					opacity: 0;
+				}
+				&__form-left-big-figure{
+					animation: LeftCurLeftBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-right-big-figure{
+					animation: LeftCurRightBigFigureForm $durationFigure ease-in-out;
+				}
+				&__form-small-figure{
+					animation: LeftCurSmallFigureForm $durationFigure ease-in-out;
+				}
+			}
+		}
+	}
+	&__form-circle{
+		opacity: 0;
+		transition: opacity 1s ease;
+		top: -1165px;
+		left: calc(50% - 1625px);
+		width: 1764px;
+		height: 1768px;
+	}
+	&__form-left-big-figure{
+		bottom: calc(50% - 350px);
+		left: calc(50% + 60px);
+		width: 736px;
+		height: 651px;
+	}
+	&__form-right-big-figure{
+		bottom: calc(50% - 460px);
+		left: calc(50% - 15px);
+		width: 614px;
+		height: 758px;
+	}
+	&__form-small-figure{
+		top: calc(50% - 325px);
+		left: calc(50% - 200px);
+		width: 217px;
+		height: 216px;
+	}
+}

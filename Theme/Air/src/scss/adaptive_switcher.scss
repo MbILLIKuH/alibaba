@@ -1,0 +1,2403 @@
+/////SWITCHER/////
+//SECTION
+@media screen and (max-width: 1366px){
+    .section{
+        &__menu{
+            left: 2.5%;
+        }
+    }
+}
+@media screen and (max-width: 650px){
+    .section{
+        &__menu{
+            display: none;
+        }
+    }
+}
+//BANNER
+//Banner 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 800px) and (min-width: 1001px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -275px;
+                }
+                &__bottom-figure{
+                    bottom: -425px;
+                }
+                &__cyberpunk-text{
+                    bottom: -65px;
+                }
+                &__cyberpunk{
+                    bottom: -105px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 700px) and (min-width: 1001px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -325px;
+                }
+                &__bottom-figure{
+                    bottom: -525px;
+                }
+                &__cyberpunk-text{
+                    bottom: -150px;
+                }
+                &__cyberpunk{
+                    bottom: -155px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 625px) and (min-width: 1001px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -350px;
+                }
+                &__bottom-figure{
+                    bottom: -650px;
+                }
+                &__cyberpunk-text,&__cyberpunk{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 700px) and (min-width: 1001px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -275px;
+            }
+            &__bottom-figure{
+                bottom: -425px;
+            }
+            &__cyberpunk-text{
+                bottom: -65px;
+            }
+            &__cyberpunk{
+                bottom: -105px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 600px) and (min-width: 1001px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -325px;
+            }
+            &__bottom-figure{
+                bottom: -525px;
+            }
+            &__cyberpunk-text{
+                bottom: -150px;
+            }
+            &__cyberpunk{
+                bottom: -155px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 525px) and (min-width: 1001px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -350px;
+            }
+            &__bottom-figure{
+                bottom: -650px;
+            }
+            &__cyberpunk-text,&__cyberpunk{
+                display: none;
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 650px) and (min-width: 1001px){
+    .banner{
+        &__top-figure{
+            top: -275px;
+        }
+        &__bottom-figure{
+            bottom: -425px;
+        }
+        &__cyberpunk-text{
+            bottom: -65px;
+        }
+        &__cyberpunk{
+            bottom: -105px;
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1001px){
+    .banner{
+        &__top-figure{
+            top: -325px;
+        }
+        &__bottom-figure{
+            bottom: -525px;
+        }
+        &__cyberpunk-text{
+            bottom: -150px;
+        }
+        &__cyberpunk{
+            bottom: -155px;
+        }
+    }
+}
+@media screen and (max-height: 475px) and (min-width: 1001px){
+    .banner{
+        &__top-figure{
+            top: -350px;
+        }
+        &__bottom-figure{
+            bottom: -650px;
+        }
+        &__cyberpunk-text,&__cyberpunk{
+            display: none;
+        }
+    }
+}
+//Banner 1000px
+@media screen and (max-width: 1000px){
+    .banner{
+        &__circle{
+            top: -475px;
+            left: calc(50% - 1125px);
+        }
+        &__top-figure{
+            top: -300px;
+        }
+        &__bottom-figure{
+            bottom: -350px;
+            left: calc(50% - 75px);
+        }
+        &__cyberpunk{
+            bottom: 0;
+            left: calc(50% + 100px);
+        }
+        &__cyberpunk-text{
+            display: none;
+        }
+    }
+}
+//AdminPanel 1000px
+@media screen and (max-height: 750px) and (min-width: 769px) and (max-width: 1000px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -325px;
+                }
+                &__bottom-figure{
+                    bottom: -450px;
+                }
+                &__cyberpunk{
+                    bottom: -100px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1000px
+@media screen and (max-height: 650px) and (min-width: 769px) and (max-width: 1000px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -325px;
+            }
+            &__bottom-figure{
+                bottom: -450px;
+            }
+            &__cyberpunk{
+                bottom: -100px;
+            }
+        }
+    }
+}
+//User 1000px
+@media screen and (max-height: 600px) and (min-width: 769px) and (max-width: 1000px){
+    .banner{
+        &__top-figure{
+            top: -325px;
+        }
+        &__bottom-figure{
+            bottom: -450px;
+        }
+        &__cyberpunk{
+            bottom: -100px;
+        }
+    }
+}
+//Banner 768px
+@media screen and (max-width: 768px){
+    .banner{
+        padding-bottom: 400px;
+        &__circle{
+            top: -450px;
+            left: calc(50% - 900px);
+        }
+        &__top-figure{
+            top: -345px;
+            left: calc(50% - 445px);
+        }
+        &__bottom-figure{
+            bottom: -375px;
+            left: calc(50% - 250px);
+        }
+        &__cyberpunk{
+            bottom: -25px;
+            left: calc(50% - 100px);
+        }
+    }
+}
+//AdminPanel 768px
+@media screen and (max-height: 1050px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                padding-bottom: 350px;
+                &__bottom-figure{
+                    bottom: -475px;
+                }
+                &__cyberpunk{
+                    bottom: -100px;
+                    left: calc(50% - 50px);
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 950px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                padding: 0;
+                &__bottom-figure{
+                    bottom: -650px;
+                }
+                &__cyberpunk{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 700px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__bottom-figure{
+                    bottom: -750px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 768px
+@media screen and (max-height: 950px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminNavbar{
+        .banner{
+            padding-bottom: 350px;
+            &__bottom-figure{
+                bottom: -475px;
+            }
+            &__cyberpunk{
+                bottom: -100px;
+                left: calc(50% - 50px);
+            }
+        }
+    }
+}
+@media screen and (max-height: 850px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminNavbar{
+        .banner{
+            padding: 0;
+            &__bottom-figure{
+                bottom: -650px;
+            }
+            &__cyberpunk{
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-height: 600px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__bottom-figure{
+                bottom: -750px;
+            }
+        }
+    }
+}
+//User 768px
+@media screen and (max-height: 900px) and (min-width: 481px) and (max-width: 768px){
+    .banner{
+        padding-bottom: 350px;
+        &__bottom-figure{
+            bottom: -475px;
+        }
+        &__cyberpunk{
+            bottom: -100px;
+            left: calc(50% - 50px);
+        }
+    }
+}
+@media screen and (max-height: 800px) and (min-width: 481px) and (max-width: 768px){
+    .banner{
+        padding: 0;
+        &__bottom-figure{
+            bottom: -650px;
+        }
+        &__cyberpunk{
+            display: none;
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 481px) and (max-width: 768px){
+    .banner{
+        &__bottom-figure{
+            bottom: -750px;
+        }
+    }
+}
+//Banner 480px
+@media screen and (max-width: 480px){
+    .banner{
+        padding: 0;
+        &.-scrollCurrentUp{
+            .banner__top-figure{
+                animation: UpCurBotFigureBanner480 $duration ease-in-out;
+            }
+        }
+        &.-scrollNewDown{
+            .banner__top-figure{
+                animation: DownNewTopFigureBanner480 $duration ease-in-out;
+            }
+        }
+        &__circle{
+            top: -385px;
+            left: calc(50% - 875px);
+            width: 1100px;
+            height: 1104px;
+            img{
+                width: 1100px;
+                height: 1104px;
+            }
+        }
+        &__top-figure{
+            top: -30px;
+            left: -315px;
+            transform: rotate(-90deg);
+            width: 500px;
+            height: 410px;
+            img{
+                width: 500px;
+                height: 410px;
+            }
+        }
+        &__bottom-figure{
+            bottom: -425px;
+            left: calc(50% - 250px);
+            width: 650px;
+            height: 682px;
+            img{
+                width: 650px;
+                height: 682px;
+            }
+        }
+        &__cyberpunk{
+            display: none;
+        }
+    }
+}
+//AdminPanel 480px
+@media screen and (max-height: 800px) and (min-width: 401px) and (max-width: 480px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -65px;
+                    left: -330px;
+                }
+                &__bottom-figure{
+                    bottom: -500px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 480px
+@media screen and (max-height: 700px) and (min-width: 401px) and (max-width: 480px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -65px;
+                left: -330px;
+            }
+            &__bottom-figure{
+                bottom: -500px;
+            }
+        }
+    }
+}
+//User 480px
+@media screen and (max-height: 650px) and (min-width: 401px) and (max-width: 480px){
+    .banner{
+        &__top-figure{
+            top: -65px;
+            left: -330px;
+        }
+        &__bottom-figure{
+            bottom: -500px;
+        }
+    }
+}
+//Banner 400px
+@media screen and (max-width: 400px){
+    .banner{
+        &__circle{
+            top: -400px;
+            left: calc(50% - 900px);
+        }
+        &__top-figure{
+            top: -65px;
+            left: -325px;
+        }
+        &__bottom-figure{
+            bottom: -450px;
+            left: calc(50% - 225px);
+        }
+    }
+}
+//AdminPanel 400px
+@media screen and (max-height: 700px) and (max-width: 400px){
+    .ipHasAdminPanel{
+        .global{
+            .banner{
+                &__top-figure{
+                    top: -70px;
+                    left: -335px;
+                }
+                &__bottom-figure{
+                    bottom: -475px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 400px
+@media screen and (max-height: 600px) and (max-width: 400px){
+    .ipHasAdminNavbar{
+        .banner{
+            &__top-figure{
+                top: -70px;
+                left: -335px;
+            }
+            &__bottom-figure{
+                bottom: -475px;
+            }
+        }
+    }
+}
+//User 400px
+@media screen and (max-height: 550px) and (max-width: 400px){
+    .banner{
+        &__top-figure{
+            top: -70px;
+            left: -335px;
+        }
+        &__bottom-figure{
+            bottom: -475px;
+        }
+    }
+}
+//SERVICES
+//STATUS
+//Status 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 700px) and (min-width: 1001px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__status-left-big-figure{
+                    bottom: -365px;
+                }
+                &__status-right-big-figure{
+                    bottom: -300px;
+                }
+                &__status-bottom-small-figure{
+                    bottom: 0px;
+                }
+                &__status-top-small-figure{
+                    top: -100px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 575px) and (min-width: 1001px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__status-left-big-figure{
+                    bottom: -400px;
+                }
+                &__status-right-big-figure{
+                    bottom: -350px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 600px) and (min-width: 1001px){
+    .ipHasAdminNavbar{
+        .services{
+            &__status-left-big-figure{
+                bottom: -365px;
+            }
+            &__status-right-big-figure{
+                bottom: -300px;
+            }
+            &__status-bottom-small-figure{
+                bottom: 0px;
+            }
+            &__status-top-small-figure{
+                top: -100px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 475px) and (min-width: 1001px){
+    .ipHasAdminNavbar{
+        .services{
+            &__status-left-big-figure{
+                bottom: -400px;
+            }
+            &__status-right-big-figure{
+                bottom: -350px;
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 550px) and (min-width: 1001px){
+    .services{
+        &__status-left-big-figure{
+            bottom: -365px;
+        }
+        &__status-right-big-figure{
+            bottom: -300px;
+        }
+        &__status-bottom-small-figure{
+            bottom: 0px;
+        }
+        &__status-top-small-figure{
+            top: -100px;
+        }
+    }
+}
+@media screen and (max-height: 425px) and (min-width: 1001px){
+    .services{
+        &__status-left-big-figure{
+            bottom: -400px;
+        }
+        &__status-right-big-figure{
+            bottom: -350px;
+        }
+    }
+}
+//Status 1000px
+@media screen and (max-width: 1000px){
+    .services{
+        &__status-circle{
+            top: -775px;
+            left: calc(50% - 925px);
+            width: 1350px;
+            height: 1353px;
+            img{
+                width: 1350px;
+                height: 1353px;
+            }
+        }
+        &__status-left-big-figure{
+            bottom: -350px;
+            left: calc(50% - 150px);
+        }
+        &__status-right-big-figure{
+            bottom: -275px;
+            left: calc(50% + 50px);
+        }
+        &__status-bottom-small-figure{
+            bottom: 75px;
+            left: calc(50% - 375px);
+        }
+        &__status-top-small-figure{
+            left: calc(50% - 165px);
+        }
+    }
+}
+//AdminPanel 1000px
+@media screen and (max-height: 750px) and (min-width: 769px) and (max-width: 1000px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__status-left-big-figure{
+                    bottom: -450px;
+                }
+                &__status-right-big-figure{
+                    bottom: -375px;
+                }
+                &__status-bottom-small-figure{
+                    bottom: 25px;
+                }
+                &__status-top-small-figure{
+                    top: -100px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1000px
+@media screen and (max-height: 650px) and (min-width: 769px) and (max-width: 1000px){
+    .ipHasAdminNavbar{
+        .services{
+            &__status-left-big-figure{
+                bottom: -450px;
+            }
+            &__status-right-big-figure{
+                bottom: -375px;
+            }
+            &__status-bottom-small-figure{
+                bottom: 25px;
+            }
+            &__status-top-small-figure{
+                top: -100px;
+            }
+        }
+    }
+}
+//User 1000px
+@media screen and (max-height: 600px) and (min-width: 769px) and (max-width: 1000px){
+    .services{
+        &__status-left-big-figure{
+            bottom: -450px;
+        }
+        &__status-right-big-figure{
+            bottom: -375px;
+        }
+        &__status-bottom-small-figure{
+            bottom: 25px;
+        }
+        &__status-top-small-figure{
+            top: -100px;
+        }
+    }
+}
+//Status 768px
+@media screen and (max-width: 768px){
+    .services{
+        &__status-circle{
+            top: -825px;
+            left: calc(50% - 875px);
+        }
+        &__status-left-big-figure{
+            bottom: -200px;
+            left: calc(50% - 100px);
+            width: 500px;
+            height: 627px;
+            img{
+                width: 500px;
+                height: 627px;
+            }
+        }
+        &__status-right-big-figure{
+            bottom: -125px;
+            left: calc(50% + 75px);
+            width: 475px;
+            height: 546px;
+            img{
+                width: 475px;
+                height: 546px;
+            }
+        }
+        &__status-bottom-small-figure{
+            left: calc(50% - 325px);
+            width: 150px;
+            height: 158px;
+            img{
+                width: 150px;
+                height: 158px;
+            }
+        }
+        &__status-top-small-figure{
+            top: 100px;
+            left: auto;
+            right: -100px;
+        }
+    }
+}
+//AdminPanel 768px
+@media screen and (max-height: 825px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__status-top-small-figure{
+                    top: -100px;
+                    left: calc(50% - 125px);
+                    right: auto;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__status-left-big-figure{
+                    bottom: -250px;
+                }
+                &__status-right-big-figure{
+                    bottom: -175px;
+                }
+                &__status-bottom-small-figure{
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 768px
+@media screen and (max-height: 725px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminNavbar{
+        .services{
+            &__status-top-small-figure{
+                top: -100px;
+                left: calc(50% - 125px);
+                right: auto;
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 481px) and (max-width: 768px){
+    .ipHasAdminNavbar{
+        .services{
+            &__status-left-big-figure{
+                bottom: -250px;
+            }
+            &__status-right-big-figure{
+                bottom: -175px;
+            }
+            &__status-bottom-small-figure{
+                bottom: 30px;
+            }
+        }
+    }
+}
+//User 768px
+@media screen and (max-height: 675px) and (min-width: 481px) and (max-width: 768px){
+    .services{
+        &__status-top-small-figure{
+            top: -100px;
+            left: calc(50% - 125px);
+            right: auto;
+        }
+    }
+}
+@media screen and (max-height: 500px) and (min-width: 481px) and (max-width: 768px){
+    .services{
+        &__status-left-big-figure{
+            bottom: -250px;
+        }
+        &__status-right-big-figure{
+            bottom: -175px;
+        }
+        &__status-bottom-small-figure{
+            bottom: 30px;
+        }
+    }
+}
+//Status 480px
+@media screen and (max-width: 480px){
+    .services{
+        &__status-circle{
+            top: -875px;
+            left: calc(50% - 1000px);
+        }
+        &__status-left-big-figure{
+            bottom: -200px;
+            left: calc(50% - 250px);
+        }
+        &__status-right-big-figure{
+            bottom: -125px;
+            left: calc(50% - 100px);
+        }
+        &__status-bottom-small-figure,&__status-top-small-figure{
+            display: none;
+        }
+    }
+}
+//Status 320px
+@media screen and (max-width: 320px){
+    .services{
+        &__status-circle{
+            left: calc(50% - 1075px);
+        }
+        &__status-left-big-figure{
+            left: calc(50% - 225px);
+        }
+        &__status-right-big-figure{
+            left: calc(50% - 85px);
+        }
+    }
+}
+//PHYSICAL
+//Physical 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 775px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__physical{
+                    .section__background{
+                        &.-problem{
+                            .services{
+                                &__physical-problem-bottom-figure{
+                                    bottom: -750px;
+                                    left: calc(50% + 100px);
+                                }
+                            }
+                        }
+                        &.-solve{
+                            &.-animation{
+                                .services{
+                                    &__physical-problem-bottom-figure{
+                                        bottom: -750px;
+                                        left: calc(50% + 100px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 675px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__physical{
+                    .section__background{
+                        &.-problem{
+                            .services{
+                                &__physical-problem-bottom-figure{
+                                    bottom: -825px;
+                                    left: calc(50% + 150px);
+                                }
+                            }
+                        }
+                        &.-solve{
+                            &.-animation{
+                                .services{
+                                    &__physical-problem-bottom-figure{
+                                        bottom: -825px;
+                                        left: calc(50% + 150px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 675px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .services{
+            &__physical{
+                .section__background{
+                    &.-problem{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -750px;
+                                left: calc(50% + 100px);
+                            }
+                        }
+                    }
+                    &.-solve{
+                        &.-animation{
+                            .services{
+                                &__physical-problem-bottom-figure{
+                                    bottom: -750px;
+                                    left: calc(50% + 100px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 575px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .services{
+            &__physical{
+                .section__background{
+                    &.-problem{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -825px;
+                                left: calc(50% + 150px);
+                            }
+                        }
+                    }
+                    &.-solve{
+                        &.-animation{
+                            .services{
+                                &__physical-problem-bottom-figure{
+                                    bottom: -825px;
+                                    left: calc(50% + 150px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 625px) and (min-width: 1151px){
+    .services{
+        &__physical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            bottom: -750px;
+                            left: calc(50% + 100px);
+                        }
+                    }
+                }
+                &.-solve{
+                    &.-animation{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -750px;
+                                left: calc(50% + 100px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 525px) and (min-width: 1151px){
+    .services{
+        &__physical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            bottom: -825px;
+                            left: calc(50% + 150px);
+                        }
+                    }
+                }
+                &.-solve{
+                    &.-animation{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -825px;
+                                left: calc(50% + 150px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Physical 1150px
+@media screen and (max-width: 1150px){
+    .services{
+        &__physical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            bottom: -450px;
+                            left: auto;
+                            right: -275px;
+                        }
+                        &__physical-problem-top-figure{
+                            left: calc(50% - 200px);
+                        }
+                        &__physical-middle-small-figure{
+                            left: calc(50% + 20px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-solve-bottom-figure{
+                                left: calc(50% - 200px);
+                            }
+                            &__physical-solve-top-figure{
+                                left: calc(50% - 400px);
+                            }
+                            &__physical-middle-small-figure{
+                                animation: PrevMidSmallFigurePhysical1150 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            right: -1000px;
+                        }
+                        &__physical-solve-bottom-figure{
+                            left: calc(50% - 200px);
+                        }
+                        &__physical-solve-top-figure{
+                            left: calc(50% - 400px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -450px;
+                                left: auto;
+                                right: -275px;
+                            }
+                            &__physical-problem-top-figure{
+                                left: calc(50% - 200px);
+                            }
+                            &__physical-middle-small-figure{
+                                animation: NextMidSmallFigurePhysical1150 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__physical-circle{
+            left: calc(50% - 950px);
+        }
+        &__physical-problem-bottom-figure{
+            width: 950px;
+            height: 1036px;
+            img{
+                width: 950px;
+                height: 1036px;
+            }
+        }
+        &__physical-middle-big-figure{
+            display: none;
+        }
+    }
+}
+//Physical 900px
+@media screen and (max-width: 900px){
+    .services{
+        &__physical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            bottom: -375px;
+                            right: -225px;
+                        }
+                        &__physical-problem-top-figure{
+                            top: -100px;
+                            left: calc(50% - 150px);
+                        }
+                        &__physical-middle-small-figure{
+                            top: 60px;
+                            left: calc(50% + 40px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-solve-bottom-figure{
+                                bottom: -350px;
+                                left: calc(50% - 125px);
+                            }
+                            &__physical-solve-top-figure{
+                                top: -385px;
+                                left: calc(50% - 275px);
+                            }
+                            &__physical-middle-small-figure{
+                                animation: PrevMidSmallFigurePhysical900 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__physical-solve-bottom-figure{
+                            bottom: -350px;
+                            left: calc(50% - 125px);
+                        }
+                        &__physical-solve-top-figure{
+                            top: -385px;
+                            left: calc(50% - 275px);
+                        }
+                        &__physical-middle-small-figure{
+                            top: 70px;
+                            left: calc(50% + 5px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -375px;
+                                right: -225px;
+                            }
+                            &__physical-problem-top-figure{
+                                top: -100px;
+                                left: calc(50% - 150px);
+                            }
+                            &__physical-middle-small-figure{
+                                animation: NextMidSmallFigurePhysical900 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__physical-problem-bottom-figure{
+            width: 800px;
+            height: 872px;
+            img{
+                width: 800px;
+                height: 872px;
+            }
+        }
+        &__physical-solve-bottom-figure{
+            width: 650px;
+            height: 650px;
+            img{
+                width: 650px;
+                height: 650px;
+            }
+        }
+        &__physical-problem-top-figure{
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        &__physical-solve-top-figure{
+            width: 400px;
+            height: 484px;
+            img{
+                width: 400px;
+                height: 484px;
+            }
+        }
+        &__physical-middle-small-figure{
+            width: 40px;
+            height: 40px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+//Physical 650px
+@media screen and (max-width: 650px){
+    .services{
+        &__physical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__physical-problem-bottom-figure{
+                            bottom: -285px;
+                            right: -160px;
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-solve-bottom-figure{
+                                bottom: -300px;
+                                left: calc(50% - 175px);
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__physical-solve-bottom-figure{
+                            bottom: -300px;
+                            left: calc(50% - 175px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__physical-problem-bottom-figure{
+                                bottom: -285px;
+                                right: -160px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__physical-circle{
+            left: calc(50% - 1000px);
+        }
+        &__physical-problem-bottom-figure{
+            width: 600px;
+            height: 654px;
+            img{
+                width: 600px;
+                height: 654px;
+            }
+        }
+        &__physical-solve-bottom-figure{
+            width: 550px;
+            height: 550px;
+            img{
+                width: 550px;
+                height: 550px;
+            }
+        }
+        &__physical-problem-top-figure,&__physical-solve-top-figure,&__physical-middle-small-figure{
+            display: none;
+        }
+    }
+}
+//JURIDICAL
+//Juridical 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 800px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__juridical{
+                    .section__background{
+                        &.-problem{
+                            &.-animation{
+                                .services{
+                                    &__juridical-left-big-figure{
+                                        bottom: -330px;
+                                        left: calc(50% + 150px);
+                                        animation: PrevLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-right-big-figure{
+                                        bottom: -150px;
+                                        left: calc(50% + 450px);
+                                        animation: PrevRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-bottom-small-figure{
+                                        bottom: -150px;
+                                        left: calc(50% + 350px);
+                                        animation: PrevBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                        &.-solve{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -330px;
+                                    left: calc(50% + 150px);
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -150px;
+                                    left: calc(50% + 450px);
+                                }
+                                &__juridical-bottom-small-figure{
+                                    bottom: -150px;
+                                    left: calc(50% + 350px);
+                                }
+                            }
+                            &.-animation{
+                                .services{
+                                    &__juridical-left-big-figure{
+                                        bottom: -450px;
+                                        left: calc(50% - 250px);
+                                        animation: NextLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-right-big-figure{
+                                        bottom: -310px;
+                                        left: calc(50% - 350px);
+                                        animation: NextRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-bottom-small-figure{
+                                        bottom: -10px;
+                                        left: calc(50% + 355px);
+                                        animation: NextBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .services{
+                &__juridical{
+                    .section__background{
+                        &.-problem{
+                            &.-animation{
+                                .services{
+                                    &__juridical-left-big-figure{
+                                        bottom: -430px;
+                                        animation: PrevLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-right-big-figure{
+                                        bottom: -250px;
+                                        animation: PrevRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                        &.-solve{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -430px;
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -250px;
+                                }
+                            }
+                            &.-animation{
+                                .services{
+                                    &__juridical-left-big-figure{
+                                        bottom: -450px;
+                                        animation: NextLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                    }
+                                    &__juridical-right-big-figure{
+                                        bottom: -310px;
+                                        animation: NextRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 700px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .services{
+            &__juridical{
+                .section__background{
+                    &.-problem{
+                        &.-animation{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -330px;
+                                    left: calc(50% + 150px);
+                                    animation: PrevLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -150px;
+                                    left: calc(50% + 450px);
+                                    animation: PrevRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                                &__juridical-bottom-small-figure{
+                                    bottom: -150px;
+                                    left: calc(50% + 350px);
+                                    animation: PrevBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                    &.-solve{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -330px;
+                                left: calc(50% + 150px);
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -150px;
+                                left: calc(50% + 450px);
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: -150px;
+                                left: calc(50% + 350px);
+                            }
+                        }
+                        &.-animation{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -450px;
+                                    left: calc(50% - 250px);
+                                    animation: NextLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -310px;
+                                    left: calc(50% - 350px);
+                                    animation: NextRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                                &__juridical-bottom-small-figure{
+                                    bottom: -10px;
+                                    left: calc(50% + 355px);
+                                    animation: NextBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .services{
+            &__juridical{
+                .section__background{
+                    &.-problem{
+                        &.-animation{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -430px;
+                                    animation: PrevLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -250px;
+                                    animation: PrevRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                    &.-solve{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -430px;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -250px;
+                            }
+                        }
+                        &.-animation{
+                            .services{
+                                &__juridical-left-big-figure{
+                                    bottom: -450px;
+                                    animation: NextLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                }
+                                &__juridical-right-big-figure{
+                                    bottom: -310px;
+                                    animation: NextRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 700px) and (min-width: 1151px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -330px;
+                                left: calc(50% + 150px);
+                                animation: PrevLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -150px;
+                                left: calc(50% + 450px);
+                                animation: PrevRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: -150px;
+                                left: calc(50% + 350px);
+                                animation: PrevBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -330px;
+                            left: calc(50% + 150px);
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -150px;
+                            left: calc(50% + 450px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            bottom: -150px;
+                            left: calc(50% + 350px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -450px;
+                                left: calc(50% - 250px);
+                                animation: NextLeftBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -310px;
+                                left: calc(50% - 350px);
+                                animation: NextRightBigFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: -10px;
+                                left: calc(50% + 355px);
+                                animation: NextBottomSmallFigureJuridicalAdapt800 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1151px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -430px;
+                                animation: PrevLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -250px;
+                                animation: PrevRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -430px;
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -250px;
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -450px;
+                                animation: NextLeftBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -310px;
+                                animation: NextRightBigFigureJuridicalAdapt650 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Juridical 1150px
+@media screen and (max-width: 1150px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -325px;
+                            left: calc(50% - 225px);
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -225px;
+                            left: calc(50% - 335px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            bottom: 80px;
+                            left: calc(50% + 235px);
+                        }
+                        &__juridical-top-small-figure{
+                            left: calc(50% - 50px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -250px;
+                                left: 50%;
+                                animation: PrevLeftBigFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -125px;
+                                left: calc(50% + 225px);
+                                animation: PrevRightBigFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: 25px;
+                                left: calc(50% + 235px);
+                                animation: PrevBottomSmallFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-top-small-figure{
+                                animation: PrevTopSmallFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -250px;
+                            left: 50%;
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -125px;
+                            left: calc(50% + 225px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            bottom: 25px;
+                            left: calc(50% + 235px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -325px;
+                                left: calc(50% - 225px);
+                                animation: NextLeftBigFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -225px;
+                                left: calc(50% - 335px);
+                                animation: NextRightBigFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: 80px;
+                                left: calc(50% + 235px);
+                                animation: NextBottomSmallFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                            &__juridical-top-small-figure{
+                                left: calc(50% - 50px);
+                                animation: NextTopSmallFigureJuridical1150 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__juridical-circle{
+            top: -600px;
+            left: calc(50% - 200px);
+            width: 1000px;
+            height: 1002px;
+            img{
+                width: 1000px;
+                height: 1002px;
+            }
+        }
+        &__juridical-left-big-figure{
+            width: 850px;
+            height: 584px;
+            img{
+                width: 850px;
+                height: 584px;
+            }
+        }
+        &__juridical-right-big-figure{
+            width: 625px;
+            height: 356px;
+            img{
+                width: 625px;
+                height: 356px;
+            }
+        }
+        &__juridical-bottom-small-figure{
+            width: 75px;
+            height: 79px;
+            img{
+                width: 75px;
+                height: 79px;
+            }
+        }
+    }
+}
+//Juridical 900px
+@media screen and (max-width: 900px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -225px;
+                            left: calc(50% - 275px);
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -125px;
+                            left: calc(50% - 425px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            bottom: 150px;
+                            left: calc(50% + 200px);
+                        }
+                        &__juridical-top-small-figure{
+                            left: calc(50% - 175px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -225px;
+                                left: calc(50% - 150px);
+                                animation: PrevLeftBigFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -100px;
+                                left: calc(50% + 50px);
+                                animation: PrevRightBigFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                left: calc(50% + 75px);
+                                animation: PrevBottomSmallFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-top-small-figure{
+                                left: calc(50% - 150px);
+                                animation: PrevTopSmallFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            bottom: -225px;
+                            left: calc(50% - 150px);
+                        }
+                        &__juridical-right-big-figure{
+                            bottom: -100px;
+                            left: calc(50% + 50px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            left: calc(50% + 75px);
+                        }
+                        &__juridical-top-small-figure{
+                            left: calc(50% - 150px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                bottom: -225px;
+                                left: calc(50% - 275px);
+                                animation: NextLeftBigFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                bottom: -125px;
+                                left: calc(50% - 425px);
+                                animation: NextRightBigFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                bottom: 150px;
+                                left: calc(50% + 200px);
+                                animation: NextBottomSmallFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                            &__juridical-top-small-figure{
+                                left: calc(50% - 175px);
+                                animation: NextTopSmallFigureJuridical900 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__juridical-circle{
+            top: -350px;
+            left: calc(50% - 225px);
+            width: 750px;
+            height: 752px;
+            img{
+                width: 750px;
+                height: 752px;
+            }
+        }
+    }
+}
+//Juridical 650px
+@media screen and (max-width: 650px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__juridical-left-big-figure{
+                            left: calc(50% - 350px);
+                        }
+                        &__juridical-right-big-figure{
+                            left: calc(50% - 500px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            left: calc(50% + 100px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                left: calc(50% - 225px);
+                            }
+                            &__juridical-right-big-figure{
+                                left: calc(50% - 25px);
+                            }
+                            &__juridical-bottom-small-figure{
+                                left: calc(50% - 25px);
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            left: calc(50% - 225px);
+                        }
+                        &__juridical-right-big-figure{
+                            left: calc(50% - 25px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            left: calc(50% - 25px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                left: calc(50% - 350px);
+                            }
+                            &__juridical-right-big-figure{
+                                left: calc(50% - 500px);
+                            }
+                            &__juridical-bottom-small-figure{
+                                left: calc(50% + 100px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__juridical-circle{
+            left: calc(50% - 200px);
+        }
+        &__juridical-top-small-figure{
+            display: none;
+        }
+    }
+}
+//Juridical 400px
+@media screen and (max-width: 400px){
+    .services{
+        &__juridical{
+            .section__background{
+                &.-problem{
+                    .services{
+                        &__juridical-left-big-figure{
+                            left: calc(50% - 500px);
+                        }
+                        &__juridical-right-big-figure{
+                            left: calc(50% - 650px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            left: calc(50% - 50px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                left: calc(50% - 275px);
+                                animation: PrevLeftBigFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                left: calc(50% - 75px);
+                                animation: PrevRightBigFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                left: calc(50% - 75px);
+                                animation: PrevBottomSmallFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+                &.-solve{
+                    .services{
+                        &__juridical-left-big-figure{
+                            left: calc(50% - 275px);
+                        }
+                        &__juridical-right-big-figure{
+                            left: calc(50% - 75px);
+                        }
+                        &__juridical-bottom-small-figure{
+                            left: calc(50% - 75px);
+                        }
+                    }
+                    &.-animation{
+                        .services{
+                            &__juridical-left-big-figure{
+                                left: calc(50% - 500px);
+                                animation: NextLeftBigFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                            &__juridical-right-big-figure{
+                                left: calc(50% - 650px);
+                                animation: NextRightBigFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                            &__juridical-bottom-small-figure{
+                                left: calc(50% - 50px);
+                                animation: NextBottomSmallFigureJuridical400 $durationFigure ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__juridical-circle{
+            left: calc(50% - 150px);
+        }
+    }
+}
+//FORM
+//Form 1150px width
+@media screen and (max-width: 1150px){
+    .services{
+        &__form-left-big-figure{
+            left: auto;
+            right: -175px;
+        }
+        &__form-right-big-figure{
+            left: auto;
+            right: -75px;
+        }
+    }
+}
+//Form 750px width
+@media screen and (max-width: 750px){
+    .services{
+        &__form-left-big-figure{
+            right: calc(50% - 365px);
+        }
+        &__form-right-big-figure{
+            right: calc(50% - 225px);
+        }
+        &__form-small-figure{
+            display: none;
+        }
+    }
+}
+//FAQ
+//FAQ 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 750px) and (min-width: 1301px){
+    .ipHasAdminPanel{
+        .global{
+            .FAQ{
+                &__top-figure{
+                    top: -225px;
+                    left: calc(50% - 375px);
+                }
+                &__bottom-big-figure{
+                    bottom: -320px;
+                    left: calc(50% + 500px);
+                }
+                &__bottom-small-figure{
+                    bottom: -125px;
+                    left: calc(50% + 750px);
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 650px) and (min-width: 1301px){
+    .ipHasAdminNavbar{
+        .FAQ{
+            &__top-figure{
+                top: -225px;
+                left: calc(50% - 375px);
+            }
+            &__bottom-big-figure{
+                bottom: -320px;
+                left: calc(50% + 500px);
+            }
+            &__bottom-small-figure{
+                bottom: -125px;
+                left: calc(50% + 750px);
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 600px) and (min-width: 1301px){
+    .FAQ{
+        &__top-figure{
+            top: -225px;
+            left: calc(50% - 375px);
+        }
+        &__bottom-big-figure{
+            bottom: -320px;
+            left: calc(50% + 500px);
+        }
+        &__bottom-small-figure{
+            bottom: -125px;
+            left: calc(50% + 750px);
+        }
+    }
+}
+//FAQ 1300px
+@media screen and (max-width: 1300px){
+    .FAQ{
+        &__top-figure{
+            top: -250px;
+            left: calc(50% - 375px);
+        }
+        &__bottom-big-figure{
+            bottom: -350px;
+            left: auto;
+            right: -250px;
+        }
+        &__bottom-small-figure{
+            bottom: -125px;
+            left: auto;
+            right: -150px;
+        }
+    }
+}
+//FAQ 1150px
+@media screen and (max-width: 1150px){
+    .FAQ{
+        &__top-figure{
+            top: -375px;
+            left: calc(50% - 275px);
+        }
+        &__bottom-big-figure{
+            bottom: -400px;
+        }
+        &__bottom-small-figure{
+            bottom: -175px;
+        }
+    }
+}
+//FAQ 750px
+@media screen and (max-width: 750px){
+    .FAQ{
+        &__top-figure{
+            left: calc(50% - 175px);
+        }
+    }
+}
+//FAQ 650px
+@media screen and (max-width: 650px){
+    .FAQ{
+        &__top-figure{
+            top: -325px;
+            left: -175px;
+        }
+    }
+}
+//REVIEWS
+//Reviews 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 750px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .reviews{
+                &__bottom-big-figure{
+                    bottom: -550px;
+                    left: calc(50% - 50px);
+                }
+                &__bottom-small-figure{
+                    bottom: -400px;
+                    left: calc(50% + 150px);
+                }
+                &__top-figure{
+                    top: -225px;
+                    left: calc(50% - 450px);
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 650px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .reviews{
+            &__bottom-big-figure{
+                bottom: -550px;
+                left: calc(50% - 50px);
+            }
+            &__bottom-small-figure{
+                bottom: -400px;
+                left: calc(50% + 150px);
+            }
+            &__top-figure{
+                top: -225px;
+                left: calc(50% - 450px);
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 600px) and (min-width: 1151px){
+    .reviews{
+        &__bottom-big-figure{
+            bottom: -550px;
+            left: calc(50% - 50px);
+        }
+        &__bottom-small-figure{
+            bottom: -400px;
+            left: calc(50% + 150px);
+        }
+        &__top-figure{
+            top: -225px;
+            left: calc(50% - 450px);
+        }
+    }
+}
+//Reviews 1150px
+@media screen and (max-width: 1150px){
+    .reviews{
+        &__bottom-small-figure{
+            bottom: -415px;
+        }
+        &__top-figure{
+            top: -235px;
+            left: calc(50% - 325px);
+        }
+    }
+}
+//Reviews 850px
+@media screen and (max-width: 850px){
+    .reviews{
+        &__bottom-big-figure{
+            left: calc(50% - 350px);
+        }
+        &__bottom-small-figure{
+            left: calc(50% - 100px);
+        }
+        &__top-figure{
+            left: calc(50% - 225px);
+        }
+    }
+}
+//Reviews 650px
+@media screen and (max-width: 650px){
+    .reviews{
+        &__top-figure{
+            top: -215px;
+            left: -200px;
+        }
+    }
+}
+//CONTACTS
+//Contacts 1920px
+//AdminPanel 1920px
+@media screen and (max-height: 800px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__top-big-figure{
+                    top: -150px;
+                }
+                &__top-small-figure{
+                    top: 10px;
+                }
+                &__bottom-figure{
+                    bottom: -650px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 750px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__bottom-figure{
+                    bottom: -700px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 700px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__bottom-figure{
+                    bottom: -750px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 1151px){
+    .ipHasAdminPanel{
+        .global{
+            .contacts{
+                &__bottom-figure{
+                    bottom: -800px;
+                }
+            }
+        }
+    }
+}
+//NavPanel 1920px
+@media screen and (max-height: 700px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__top-big-figure{
+                top: -150px;
+            }
+            &__top-small-figure{
+                top: 10px;
+            }
+            &__bottom-figure{
+                bottom: -650px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 650px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__bottom-figure{
+                bottom: -700px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 600px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__bottom-figure{
+                bottom: -750px;
+            }
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1151px){
+    .ipHasAdminNavbar{
+        .contacts{
+            &__bottom-figure{
+                bottom: -800px;
+            }
+        }
+    }
+}
+//User 1920px
+@media screen and (max-height: 650px) and (min-width: 1151px){
+    .contacts{
+        &__top-big-figure{
+            top: -150px;
+        }
+        &__top-small-figure{
+            top: 10px;
+        }
+        &__bottom-figure{
+            bottom: -650px;
+        }
+    }
+}
+@media screen and (max-height: 600px) and (min-width: 1151px){
+    .contacts{
+        &__bottom-figure{
+            bottom: -700px;
+        }
+    }
+}
+@media screen and (max-height: 550px) and (min-width: 1151px){
+    .contacts{
+        &__bottom-figure{
+            bottom: -750px;
+        }
+    }
+}
+@media screen and (max-height: 500px) and (min-width: 1151px){
+    .contacts{
+        &__bottom-figure{
+            bottom: -800px;
+        }
+    }
+}
+//Contacts 1150px
+@media screen and (max-width: 1150px){
+    .contacts{
+        &__top-big-figure{
+            top: -175px;
+            left: calc(50% - 250px);
+        }
+        &__top-small-figure{
+            top: -25px;
+            left: calc(50% - 175px);
+        }
+    }
+}
+//Contacts 950px
+@media screen and (max-width: 950px){
+    .contacts{
+        &__top-big-figure{
+            left: calc(50% - 200px);
+        }
+        &__top-small-figure{
+            left: calc(50% - 125px);
+        }
+        &__bottom-figure{
+            bottom: -900px;
+            left: calc(50% - 450px);
+        }
+    }
+}
+//Contacts 650px
+@media screen and (max-width: 650px){
+    .contacts{
+        &__top-big-figure{
+            left: -175px;
+        }
+        &__top-small-figure{
+            left: -50px;
+        }
+        &__bottom-figure{
+            left: -350px;
+        }
+    }
+}
